@@ -13,7 +13,7 @@ export default function Header() {
                         {/* Logo */}
                         <Link href="/" className="block" aria-label="Cruip">
                             <svg
-                                className="w-8 h-8 fill-current text-purple-600"
+                                className="w-8 h-8 fill-current text-primary"
                                 viewBox="0 0 32 32"
                                 xmlns="http://www.w3.org/2000/svg"
                             >
@@ -29,7 +29,7 @@ export default function Header() {
                             <li>
                                 <Link
                                     href="/signin"
-                                    className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                                    className="font-medium text-primary hover:text-foreground brightness-90 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                                 >
                                     Sign in
                                 </Link>
@@ -37,7 +37,7 @@ export default function Header() {
                             <li>
                                 <Link
                                     href="/signup"
-                                    className="btn-sm text-white bg-purple-600 hover:bg-purple-700"
+                                    className="btn-sm text-foreground bg-primary hover:bg-cyan-700"
                                 >
                                     Sign up
                                 </Link>

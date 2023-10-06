@@ -14,7 +14,7 @@ export default function Footer() {
                                 {/* Logo */}
                                 <Link href="/" className="inline-block" aria-label="Cruip">
                                     <svg
-                                        className="w-8 h-8 fill-current text-purple-600"
+                                        className="w-8 h-8 fill-current text-primary"
                                         viewBox="0 0 32 32"
                                         xmlns="http://www.w3.org/2000/svg"
                                     >
@@ -22,7 +22,7 @@ export default function Footer() {
                                     </svg>
                                 </Link>
                             </div>
-                            <div className="text-gray-400">
+                            <div className="text-muted-foreground">
                                 Lorem ipsum is placeholder text commonly used in the graphic, print,
                                 and publishing industries for previewing layouts and visual mockups.
                             </div>
@@ -32,12 +32,14 @@ export default function Footer() {
                         <div className="md:col-span-8 lg:col-span-7 grid sm:grid-cols-3 gap-8">
                             {/* 2nd block */}
                             <div className="text-sm">
-                                <h6 className="text-gray-200 font-medium mb-1">Products</h6>
+                                <h6 className="text-foreground brightness-90 font-medium mb-1">
+                                    Products
+                                </h6>
                                 <ul>
                                     <li className="mb-1">
                                         <Link
                                             href="/"
-                                            className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
+                                            className="text-muted-foreground hover:text-foreground transition duration-150 ease-in-out"
                                         >
                                             Web Studio
                                         </Link>
@@ -45,7 +47,7 @@ export default function Footer() {
                                     <li className="mb-1">
                                         <Link
                                             href="/"
-                                            className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
+                                            className="text-muted-foreground hover:text-foreground transition duration-150 ease-in-out"
                                         >
                                             DynamicBox Flex
                                         </Link>
@@ -53,7 +55,7 @@ export default function Footer() {
                                     <li className="mb-1">
                                         <Link
                                             href="/"
-                                            className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
+                                            className="text-muted-foreground hover:text-foreground transition duration-150 ease-in-out"
                                         >
                                             Programming Forms
                                         </Link>
@@ -63,12 +65,14 @@ export default function Footer() {
 
                             {/* 3rd block */}
                             <div className="text-sm">
-                                <h6 className="text-gray-200 font-medium mb-1">Resources</h6>
+                                <h6 className="text-foreground brightness-90 font-medium mb-1">
+                                    Resources
+                                </h6>
                                 <ul>
                                     <li className="mb-1">
                                         <Link
                                             href="/"
-                                            className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
+                                            className="text-muted-foreground hover:text-foreground transition duration-150 ease-in-out"
                                         >
                                             Nostrud exercitation
                                         </Link>
@@ -76,7 +80,7 @@ export default function Footer() {
                                     <li className="mb-1">
                                         <Link
                                             href="/"
-                                            className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
+                                            className="text-muted-foreground hover:text-foreground transition duration-150 ease-in-out"
                                         >
                                             Visual mockups
                                         </Link>
@@ -84,7 +88,7 @@ export default function Footer() {
                                     <li className="mb-1">
                                         <Link
                                             href="/"
-                                            className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
+                                            className="text-muted-foreground hover:text-foreground transition duration-150 ease-in-out"
                                         >
                                             Nostrud exercitation
                                         </Link>
@@ -92,7 +96,7 @@ export default function Footer() {
                                     <li className="mb-1">
                                         <Link
                                             href="/"
-                                            className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
+                                            className="text-muted-foreground hover:text-foreground transition duration-150 ease-in-out"
                                         >
                                             Visual mockups
                                         </Link>
@@ -100,7 +104,7 @@ export default function Footer() {
                                     <li className="mb-1">
                                         <Link
                                             href="/"
-                                            className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
+                                            className="text-muted-foreground hover:text-foreground transition duration-150 ease-in-out"
                                         >
                                             Nostrud exercitation
                                         </Link>
@@ -110,12 +114,14 @@ export default function Footer() {
 
                             {/* 4th block */}
                             <div className="text-sm">
-                                <h6 className="text-gray-200 font-medium mb-1">Company</h6>
+                                <h6 className="text-foreground brightness-90 font-medium mb-1">
+                                    Company
+                                </h6>
                                 <ul>
                                     <li className="mb-1">
                                         <Link
                                             href="/"
-                                            className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
+                                            className="text-muted-foreground hover:text-foreground transition duration-150 ease-in-out"
                                         >
                                             Consectetur adipiscing
                                         </Link>
@@ -123,7 +129,7 @@ export default function Footer() {
                                     <li className="mb-1">
                                         <Link
                                             href="/"
-                                            className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
+                                            className="text-muted-foreground hover:text-foreground transition duration-150 ease-in-out"
                                         >
                                             Labore et dolore
                                         </Link>
@@ -131,7 +137,7 @@ export default function Footer() {
                                     <li className="mb-1">
                                         <Link
                                             href="/"
-                                            className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
+                                            className="text-muted-foreground hover:text-foreground transition duration-150 ease-in-out"
                                         >
                                             Consectetur adipiscing
                                         </Link>
@@ -139,7 +145,7 @@ export default function Footer() {
                                     <li className="mb-1">
                                         <Link
                                             href="/"
-                                            className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
+                                            className="text-muted-foreground hover:text-foreground transition duration-150 ease-in-out"
                                         >
                                             Labore et dolore
                                         </Link>
@@ -147,7 +153,7 @@ export default function Footer() {
                                     <li className="mb-1">
                                         <Link
                                             href="/"
-                                            className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
+                                            className="text-muted-foreground hover:text-foreground transition duration-150 ease-in-out"
                                         >
                                             Consectetur adipiscing
                                         </Link>
@@ -164,7 +170,7 @@ export default function Footer() {
                             <li>
                                 <Link
                                     href="/"
-                                    className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
+                                    className="flex justify-center items-center text-primary bg-secondary hover:text-foreground hover:bg-primary rounded-full transition duration-150 ease-in-out"
                                     aria-label="Twitter"
                                 >
                                     <svg
@@ -179,7 +185,7 @@ export default function Footer() {
                             <li className="ml-4">
                                 <Link
                                     href="/"
-                                    className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
+                                    className="flex justify-center items-center text-primary bg-secondary hover:text-foreground hover:bg-primary rounded-full transition duration-150 ease-in-out"
                                     aria-label="Github"
                                 >
                                     <svg
@@ -194,7 +200,7 @@ export default function Footer() {
                             <li className="ml-4">
                                 <Link
                                     href="/"
-                                    className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
+                                    className="flex justify-center items-center text-primary bg-secondary hover:text-foreground hover:bg-primary rounded-full transition duration-150 ease-in-out"
                                     aria-label="Facebook"
                                 >
                                     <svg
@@ -209,7 +215,7 @@ export default function Footer() {
                             <li className="ml-4">
                                 <Link
                                     href="/"
-                                    className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
+                                    className="flex justify-center items-center text-primary bg-secondary hover:text-foreground hover:bg-primary rounded-full transition duration-150 ease-in-out"
                                     aria-label="Instagram"
                                 >
                                     <svg
@@ -226,7 +232,7 @@ export default function Footer() {
                             <li className="ml-4">
                                 <Link
                                     href="/"
-                                    className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
+                                    className="flex justify-center items-center text-primary bg-secondary hover:text-foreground hover:bg-primary rounded-full transition duration-150 ease-in-out"
                                     aria-label="Linkedin"
                                 >
                                     <svg
@@ -241,7 +247,7 @@ export default function Footer() {
                         </ul>
 
                         {/* Copyrights note */}
-                        <div className="text-gray-400 text-sm mr-4">
+                        <div className="text-muted-foreground text-sm mr-4">
                             &copy; Cruip.com. All rights reserved.
                         </div>
                     </div>

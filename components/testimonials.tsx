@@ -7,11 +7,11 @@ export default function Testimonials() {
     return (
         <section>
             <div className="max-w-6xl mx-auto px-4 sm:px-6">
-                <div className="py-12 md:py-20 border-t border-gray-800">
+                <div className="py-12 md:py-20 border-t border-border">
                     {/* Section header */}
                     <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
                         <h2 className="h2 mb-4">Don't take our word for it</h2>
-                        <p className="text-xl text-gray-400">
+                        <p className="text-xl text-muted-foreground">
                             Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper
                             quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.
                         </p>
@@ -20,7 +20,7 @@ export default function Testimonials() {
                     {/* Testimonials */}
                     <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none">
                         {/* 1st testimonial */}
-                        <div className="flex flex-col h-full p-6 bg-gray-800" data-aos="fade-up">
+                        <div className="flex flex-col h-full p-6 bg-secondary" data-aos="fade-up">
                             <div>
                                 <div className="relative inline-flex flex-col mb-4">
                                     <Image
@@ -31,7 +31,7 @@ export default function Testimonials() {
                                         alt="Testimonial 01"
                                     />
                                     <svg
-                                        className="absolute top-0 right-0 -mr-3 w-6 h-5 fill-current text-purple-600"
+                                        className="absolute top-0 right-0 -mr-3 w-6 h-5 fill-current text-primary"
                                         viewBox="0 0 24 20"
                                         xmlns="http://www.w3.org/2000/svg"
                                     >
@@ -39,16 +39,19 @@ export default function Testimonials() {
                                     </svg>
                                 </div>
                             </div>
-                            <blockquote className="text-lg text-gray-400 grow">
+                            <blockquote className="text-lg text-muted-foreground grow">
                                 — Open PRO lets me quickly get the insights I care about so that I
                                 can focus on my productive work. I've had Open PRO for about 24
                                 hours now and I honestly don't know how I functioned without it
                                 before.
                             </blockquote>
-                            <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                                <cite className="text-gray-200 not-italic">Anastasia Dan</cite> -{' '}
+                            <div className="text-secondary font-medium mt-6 pt-5 border-t border-border">
+                                <cite className="text-foreground brightness-90 not-italic">
+                                    Anastasia Dan
+                                </cite>{' '}
+                                -{' '}
                                 <a
-                                    className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
+                                    className="text-primary hover:text-foreground brightness-90 transition duration-150 ease-in-out"
                                     href="#0"
                                 >
                                     UX Board
@@ -58,7 +61,7 @@ export default function Testimonials() {
 
                         {/* 2nd testimonial */}
                         <div
-                            className="flex flex-col h-full p-6 bg-gray-800"
+                            className="flex flex-col h-full p-6 bg-secondary"
                             data-aos="fade-up"
                             data-aos-delay="200"
                         >
@@ -72,7 +75,7 @@ export default function Testimonials() {
                                         alt="Testimonial 02"
                                     />
                                     <svg
-                                        className="absolute top-0 right-0 -mr-3 w-6 h-5 fill-current text-purple-600"
+                                        className="absolute top-0 right-0 -mr-3 w-6 h-5 fill-current text-primary"
                                         viewBox="0 0 24 20"
                                         xmlns="http://www.w3.org/2000/svg"
                                     >
@@ -80,16 +83,19 @@ export default function Testimonials() {
                                     </svg>
                                 </div>
                             </div>
-                            <blockquote className="text-lg text-gray-400 grow">
+                            <blockquote className="text-lg text-muted-foreground grow">
                                 — Open PRO lets me quickly get the insights I care about so that I
                                 can focus on my productive work. I've had Open PRO for about 24
                                 hours now and I honestly don't know how I functioned without it
                                 before.
                             </blockquote>
-                            <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                                <cite className="text-gray-200 not-italic">Anastasia Dan</cite> -{' '}
+                            <div className="text-secondary font-medium mt-6 pt-5 border-t border-border">
+                                <cite className="text-foreground brightness-90 not-italic">
+                                    Anastasia Dan
+                                </cite>{' '}
+                                -{' '}
                                 <a
-                                    className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
+                                    className="text-primary hover:text-foreground brightness-90 transition duration-150 ease-in-out"
                                     href="#0"
                                 >
                                     UX Board
@@ -99,7 +105,7 @@ export default function Testimonials() {
 
                         {/* 3rd testimonial */}
                         <div
-                            className="flex flex-col h-full p-6 bg-gray-800"
+                            className="flex flex-col h-full p-6 bg-secondary"
                             data-aos="fade-up"
                             data-aos-delay="400"
                         >
@@ -113,7 +119,7 @@ export default function Testimonials() {
                                         alt="Testimonial 03"
                                     />
                                     <svg
-                                        className="absolute top-0 right-0 -mr-3 w-6 h-5 fill-current text-purple-600"
+                                        className="absolute top-0 right-0 -mr-3 w-6 h-5 fill-current text-primary"
                                         viewBox="0 0 24 20"
                                         xmlns="http://www.w3.org/2000/svg"
                                     >
@@ -121,16 +127,19 @@ export default function Testimonials() {
                                     </svg>
                                 </div>
                             </div>
-                            <blockquote className="text-lg text-gray-400 grow">
+                            <blockquote className="text-lg text-muted-foreground grow">
                                 — Open PRO lets me quickly get the insights I care about so that I
                                 can focus on my productive work. I've had Open PRO for about 24
                                 hours now and I honestly don't know how I functioned without it
                                 before.
                             </blockquote>
-                            <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                                <cite className="text-gray-200 not-italic">Anastasia Dan</cite> -{' '}
+                            <div className="text-secondary font-medium mt-6 pt-5 border-t border-border">
+                                <cite className="text-foreground brightness-90 not-italic">
+                                    Anastasia Dan
+                                </cite>{' '}
+                                -{' '}
                                 <a
-                                    className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
+                                    className="text-primary hover:text-foreground brightness-90 transition duration-150 ease-in-out"
                                     href="#0"
                                 >
                                     UX Board

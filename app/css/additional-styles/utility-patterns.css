@@ -46,7 +46,7 @@
 .form-select,
 .form-checkbox,
 .form-radio {
-    @apply border border-gray-700 bg-transparent focus:border-gray-500;
+    @apply border border-border bg-transparent focus:border-2;
 }
 
 .form-input,
@@ -66,7 +66,7 @@
 
 .form-input,
 .form-textarea {
-    @apply placeholder-gray-500;
+    @apply placeholder-muted;
 }
 
 .form-select {
@@ -75,5 +75,5 @@
 
 .form-checkbox,
 .form-radio {
-    @apply text-purple-600;
+    @apply text-primary;
 }

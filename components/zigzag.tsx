@@ -7,14 +7,14 @@ export default function Zigzag() {
     return (
         <section>
             <div className="max-w-6xl mx-auto px-4 sm:px-6">
-                <div className="py-12 md:py-20 border-t border-gray-800">
+                <div className="py-12 md:py-20 border-t border-border">
                     {/* Section header */}
                     <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
                         <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">
                             Reach goals that matter
                         </div>
                         <h1 className="h2 mb-4">One product, unlimited solutions</h1>
-                        <p className="text-xl text-gray-400">
+                        <p className="text-xl text-muted-foreground">
                             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                             officia deserunt mollit laborum — semper quis lectus nulla.
                         </p>
@@ -43,16 +43,16 @@ export default function Zigzag() {
                                 data-aos="fade-right"
                             >
                                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                                    <div className="font-architects-daughter text-xl text-purple-600 mb-2">
+                                    <div className="font-architects-daughter text-xl text-primary mb-2">
                                         More speed. Less spend
                                     </div>
                                     <h3 className="h3 mb-3">Keep projects on schedule</h3>
-                                    <p className="text-xl text-gray-400 mb-4">
+                                    <p className="text-xl text-muted-foreground mb-4">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                                         do eiusmod tempor incididunt ut labore et dolore magna
                                         aliqua.
                                     </p>
-                                    <ul className="text-lg text-gray-400 -mb-2">
+                                    <ul className="text-lg text-muted-foreground -mb-2">
                                         <li className="flex items-center mb-2">
                                             <svg
                                                 className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
@@ -109,16 +109,16 @@ export default function Zigzag() {
                                 data-aos="fade-left"
                             >
                                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
-                                    <div className="font-architects-daughter text-xl text-purple-600 mb-2">
+                                    <div className="font-architects-daughter text-xl text-primary mb-2">
                                         More speed. Less spend
                                     </div>
                                     <h3 className="h3 mb-3">Keep projects on schedule</h3>
-                                    <p className="text-xl text-gray-400 mb-4">
+                                    <p className="text-xl text-muted-foreground mb-4">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                                         do eiusmod tempor incididunt ut labore et dolore magna
                                         aliqua.
                                     </p>
-                                    <ul className="text-lg text-gray-400 -mb-2">
+                                    <ul className="text-lg text-muted-foreground -mb-2">
                                         <li className="flex items-center mb-2">
                                             <svg
                                                 className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
@@ -175,16 +175,16 @@ export default function Zigzag() {
                                 data-aos="fade-right"
                             >
                                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                                    <div className="font-architects-daughter text-xl text-purple-600 mb-2">
+                                    <div className="font-architects-daughter text-xl text-primary mb-2">
                                         More speed. Less spend
                                     </div>
                                     <h3 className="h3 mb-3">Keep projects on schedule</h3>
-                                    <p className="text-xl text-gray-400 mb-4">
+                                    <p className="text-xl text-muted-foreground mb-4">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                                         do eiusmod tempor incididunt ut labore et dolore magna
                                         aliqua.
                                     </p>
-                                    <ul className="text-lg text-gray-400 -mb-2">
+                                    <ul className="text-lg text-muted-foreground -mb-2">
                                         <li className="flex items-center mb-2">
                                             <svg
                                                 className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
