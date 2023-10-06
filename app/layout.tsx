@@ -1,4 +1,4 @@
-import Banner from '@/components/banner'
+import { ThemeProvider } from '@/components/theme-provider'
 import Header from '@/components/ui/header'
 import { Architects_Daughter, Inter } from 'next/font/google'
 
@@ -26,12 +26,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     return (
         <html lang="en">
             <body
-                className={`${inter.variable} ${architects_daughter.variable} font-inter antialiased bg-gray-900 text-gray-200 tracking-tight`}
+                className={`${inter.variable} ${architects_daughter.variable} font-inter antialiased bg-background text-foreground tracking-tight`}
             >
-                <div className="flex flex-col min-h-screen overflow-hidden">
-                    <Header />
-                    {children}
-                </div>
+                <ThemeProvider
+                    attribute="class"
+                    defaultTheme="dark"
+                    enableSystem
+                    disableTransitionOnChange
+                >
+                    <div className="flex flex-col min-h-screen overflow-hidden">
+                        <Header />
+                        {children}
+                    </div>
+                </ThemeProvider>
             </body>
         </html>
     )
