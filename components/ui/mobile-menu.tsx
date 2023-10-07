@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { useEffect, useRef, useState } from 'react'
+import { ModeToggle } from '../mode-toggle'
 
 export default function MobileMenu() {
     const [mobileNavOpen, setMobileNavOpen] = useState<boolean>(false)
@@ -69,7 +70,7 @@ export default function MobileMenu() {
                 }
             >
                 <ul className="bg-secondary px-4 py-2">
-                    <li>
+                    {/* <li>
                         <Link
                             href="/signin"
                             className="flex font-medium w-full text-primary hover:text-foreground brightness-90 py-2 justify-center"
@@ -86,6 +87,9 @@ export default function MobileMenu() {
                         >
                             Sign up
                         </Link>
+                    </li> */}
+                    <li>
+                        <ModeToggle />
                     </li>
                 </ul>
             </nav>

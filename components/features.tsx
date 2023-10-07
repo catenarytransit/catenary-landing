@@ -6,11 +6,10 @@ export default function Features() {
                     {/* Section header */}
                     <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
                         <h2 className="h2 mb-4">
-                            The majority our customers do not understand their workflows.
+                            Open-source projects at Catenary
                         </h2>
                         <p className="text-xl text-muted-foreground">
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                            officia deserunt mollit anim id est laborum.
+                            Catenary embraces open-source, offering tools and solutions for transit needs. Our projects include UX-friendly frontends, blazingly efficient backends, and practical integrations of transport APIs. Take a look at what we're working on!
                         </p>
                     </div>
 

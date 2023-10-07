@@ -1,5 +1,5 @@
 import ModalVideo from '@/components/modal-video'
-import VideoThumb from '@/public/images/hero-image-01.jpg'
+import VideoThumb from '@/public/images/screenshot1.png'
 
 export default function Hero() {
     return (
@@ -45,44 +45,44 @@ export default function Hero() {
                 {/* Hero content */}
                 <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
                     {/* Section header */}
-                    <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+                    <div className="max-w-3xl mx-auto text-center tpb-12 md:pb-16">
                         <h1 className="h1 mb-4" data-aos="fade-up">
-                            Landing template for startups
+                            Powerful, realtime transit data and algorithms
                         </h1>
                         <p
                             className="text-xl text-muted-foreground mb-8"
                             data-aos="fade-up"
                             data-aos-delay="200"
                         >
-                            Our landing page template works on all devices, so you only have to set
-                            it up once, and get beautiful results forever.
+                            Catenary Maps is an ad-free, paywall-free, open-source tool for seamless public transport navigation. Using real-time data and innovative algorithms, we streamline your transit experience. Navigate public transport smarter and smoother with us.
                         </p>
                         <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
                             <div data-aos="fade-up" data-aos-delay="400">
                                 <a
                                     className="btn text-foreground bg-primary hover:brightness-75 w-full mb-4 sm:w-auto sm:mb-0"
-                                    href="#0"
+                                    href="https://catenarymaps.org/map"
                                 >
-                                    Start free trial
+                                    Launch Catenary Maps
                                 </a>
                             </div>
                             <div data-aos="fade-up" data-aos-delay="600">
                                 <a
                                     className="btn text-foreground bg-secondary hover:brightness-125 w-full sm:w-auto sm:ml-4"
-                                    href="#0"
+                                    href="https://discord.gg/bBeDhrzSgz"
                                 >
-                                    Learn more
+                                    Join Discord
                                 </a>
                             </div>
                         </div>
                     </div>
 
+                    {/* TODO: Make ModalVideo autoplay */}
                     <ModalVideo
                         thumb={VideoThumb}
                         thumbWidth={1024}
                         thumbHeight={576}
                         thumbAlt="Modal video thumbnail"
-                        video="/videos/video.mp4"
+                        video="/videos/hero.mov"
                         videoWidth={1920}
                         videoHeight={1080}
                     />
