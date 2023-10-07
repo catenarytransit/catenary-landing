@@ -1,6 +1,3 @@
-import FeatImage01 from '@/public/images/features-03-image-01.png'
-import FeatImage02 from '@/public/images/features-03-image-02.png'
-import FeatImage03 from '@/public/images/features-03-image-03.png'
 import Image from 'next/image'
 
 export default function Zigzag() {
@@ -11,8 +8,8 @@ export default function Zigzag() {
                     {/* Section header */}
                     <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
                         <h1 className="h2 mb-4">Transit insight with Catenary</h1>
-                        <p className="text-xl text-muted-foreground">                        
-                            We're a fully student team focused on creating advanced routing, ETA, and data processing algorithms. Our goal is to provide accurate real-time data in a user-friendly format.
+                        <p className="text-xl text-muted-foreground">
+                            We're a fully student team focused on creating advanced routing, estimated time of arrival (ETA), and data processing algorithms. Our goal is to provide accurate real-time data in a user-friendly, accessible format.
                         </p>
                     </div>
 
@@ -26,8 +23,8 @@ export default function Zigzag() {
                                 data-aos="fade-up"
                             >
                                 <Image
-                                    className="max-w-full mx-auto md:max-w-none h-auto"
-                                    src={FeatImage01}
+                                    className="max-w-[540px] max-h-[405px] object-contain"
+                                    src="/images/feature-bigpicture.png"
                                     width={540}
                                     height={405}
                                     alt="Features 01"
@@ -39,44 +36,10 @@ export default function Zigzag() {
                                 data-aos="fade-right"
                             >
                                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                                    <h3 className="h3 mb-3">Keep projects on schedule</h3>
+                                    <h3 className="h3 mb-3">Get the big picture</h3>
                                     <p className="text-xl text-muted-foreground mb-4">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                        do eiusmod tempor incididunt ut labore et dolore magna
-                                        aliqua.
+                                        Catenary gives you a bird's eye view of your city's transit network. Track vehicles in real time, and plan trips on unfamiliar lines.
                                     </p>
-                                    <ul className="text-lg text-muted-foreground -mb-2">
-                                        <li className="flex items-center mb-2">
-                                            <svg
-                                                className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
-                                                viewBox="0 0 12 12"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                            >
-                                                <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                                            </svg>
-                                            <span>Duis aute irure dolor in reprehenderit</span>
-                                        </li>
-                                        <li className="flex items-center mb-2">
-                                            <svg
-                                                className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
-                                                viewBox="0 0 12 12"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                            >
-                                                <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                                            </svg>
-                                            <span>Excepteur sint occaecat</span>
-                                        </li>
-                                        <li className="flex items-center">
-                                            <svg
-                                                className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
-                                                viewBox="0 0 12 12"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                            >
-                                                <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                                            </svg>
-                                            <span>Amet consectetur adipiscing elit</span>
-                                        </li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -89,11 +52,12 @@ export default function Zigzag() {
                                 data-aos="fade-up"
                             >
                                 <Image
-                                    className="max-w-full mx-auto md:max-w-none h-auto"
-                                    src={FeatImage02}
+                                    className="max-w-[540px] max-h-[405px] object-contain"
+                                    src="/images/feature-customize.png"
                                     width={540}
                                     height={405}
                                     alt="Features 02"
+                                    unoptimized
                                 />
                             </div>
                             {/* Content */}
@@ -152,11 +116,12 @@ export default function Zigzag() {
                                 data-aos="fade-up"
                             >
                                 <Image
-                                    className="max-w-full mx-auto md:max-w-none h-auto"
-                                    src={FeatImage03}
+                                    className="max-w-[540px] max-h-[405px] object-contain"
+                                    src="/images/feature-precision.png"
                                     width={540}
                                     height={405}
                                     alt="Features 03"
+                                    unoptimized
                                 />
                             </div>
                             {/* Content */}

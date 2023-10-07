@@ -47,14 +47,14 @@ export default function Hero() {
                     {/* Section header */}
                     <div className="max-w-3xl mx-auto text-center tpb-12 md:pb-16">
                         <h1 className="h1 mb-4" data-aos="fade-up">
-                            Powerful, realtime transit data and algorithms
+                            Powerful transit data and algorithms. All in realtime.
                         </h1>
                         <p
                             className="text-xl text-muted-foreground mb-8"
                             data-aos="fade-up"
                             data-aos-delay="200"
                         >
-                            Catenary Maps is an ad-free, paywall-free, open-source tool for seamless public transport navigation. Using real-time data and innovative algorithms, we streamline your transit experience. Navigate public transport smarter and smoother with us.
+                            Catenary Maps is an ad-free, open-source tool for seamless public transport navigation. Using real-time data and innovative algorithms, we streamline your transit experience. Navigate public transport smarter and smoother with us!
                         </p>
                         <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
                             <div data-aos="fade-up" data-aos-delay="400">
@@ -70,7 +70,7 @@ export default function Hero() {
                                     className="btn text-foreground bg-secondary hover:brightness-125 w-full sm:w-auto sm:ml-4"
                                     href="https://discord.gg/bBeDhrzSgz"
                                 >
-                                    Join Discord
+                                    Join our Discord
                                 </a>
                             </div>
                         </div>
