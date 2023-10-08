@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { useEffect, useRef, useState } from 'react'
+
 import { ModeToggle } from '../mode-toggle'
 
 export default function MobileMenu() {

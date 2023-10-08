@@ -5,11 +5,12 @@ export default function Blocks() {
                 <div className="py-12 md:py-20 border-t border-border">
                     {/* Section header */}
                     <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-                        <h2 className="h2 mb-4">
-                            Open-Source Projects at Catenary
-                        </h2>
+                        <h2 className="h2 mb-4">Open-Source Projects at Catenary</h2>
                         <p className="text-xl text-muted-foreground">
-                            Catenary embraces open-source, offering tools and solutions for transit needs. Our projects include UX-friendly frontends, blazingly efficient backends, and practical integrations of transport APIs. Take a look at what we're working on!
+                            Catenary embraces open-source, offering tools and solutions for transit
+                            needs. Our projects include UX-friendly frontends, blazingly efficient
+                            backends, and practical integrations of transport APIs. Take a look at
+                            what we're working on!
                         </p>
                     </div>
 

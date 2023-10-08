@@ -1,9 +1,6 @@
-import Features from '@/components/features'
-import FeaturesBlocks from '@/components/features-blocks'
 import Hero from '@/components/hero'
-import Newsletter from '@/components/newsletter'
-import Testimonials from '@/components/testimonials'
-import Zigzag from '@/components/zigzag'
+import OpenSourceList from '@/components/open-source-list'
+import Tabs from '@/components/tabs'
 
 export const metadata = {
     title: 'Home - Open PRO',
@@ -12,13 +9,10 @@ export const metadata = {
 
 export default function Home() {
     return (
-        <>
+        <div className="flex flex-col divide-y divide-solid">
             <Hero />
-            <Zigzag />
-            <FeaturesBlocks />
-            <Features />
-            {/* <Testimonials /> */}
-            {/* <Newsletter /> */}
-        </>
+            <Tabs />
+            <OpenSourceList />
+        </div>
     )
 }

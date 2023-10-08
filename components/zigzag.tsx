@@ -9,7 +9,10 @@ export default function Zigzag() {
                     <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
                         <h1 className="h2 mb-4">Transit insight with Catenary</h1>
                         <p className="text-xl text-muted-foreground">
-                            We're a fully student team focused on creating advanced routing, estimated time of arrival (ETA), and data processing algorithms. Our goal is to provide accurate real-time data in a user-friendly, accessible format.
+                            We're a fully student team focused on creating advanced routing,
+                            estimated time of arrival (ETA), and data processing algorithms. Our
+                            goal is to provide accurate real-time data in a user-friendly,
+                            accessible format.
                         </p>
                     </div>
 
@@ -38,7 +41,9 @@ export default function Zigzag() {
                                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                                     <h3 className="h3 mb-3">Get the big picture</h3>
                                     <p className="text-xl text-muted-foreground mb-4">
-                                        Catenary gives you a bird's eye view of your city's transit network. Track vehicles in real time, and plan trips on unfamiliar lines.
+                                        Catenary gives you a bird's eye view of your city's transit
+                                        network. Track vehicles in real time, and plan trips on
+                                        unfamiliar lines.
                                     </p>
                                 </div>
                             </div>

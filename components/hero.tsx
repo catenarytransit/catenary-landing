@@ -43,7 +43,7 @@ export default function Hero() {
                 </div>
 
                 {/* Hero content */}
-                <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
+                <div className="relative pt-32 pb-12 md:pt-40 md:pb-16">
                     {/* Section header */}
                     <div className="max-w-3xl mx-auto text-center tpb-12 md:pb-16">
                         <h1 className="h1 mb-4" data-aos="fade-up">
@@ -54,7 +54,10 @@ export default function Hero() {
                             data-aos="fade-up"
                             data-aos-delay="200"
                         >
-                            Catenary Maps is an ad-free, open-source tool for seamless public transport navigation. Using real-time data and innovative algorithms, we streamline your transit experience. Navigate public transport smarter and smoother with us!
+                            Catenary Maps is an ad-free, open-source tool for seamless public
+                            transport navigation. Using real-time data and innovative algorithms, we
+                            streamline your transit experience. Navigate public transport smarter
+                            and smoother with us!
                         </p>
                         <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
                             <div data-aos="fade-up" data-aos-delay="400">
