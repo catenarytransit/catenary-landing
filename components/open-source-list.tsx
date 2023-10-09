@@ -35,6 +35,7 @@ export default function OpenSourceList() {
                                     width={128}
                                     height={128}
                                     className="mb-4 rounded-md border border-border"
+                                    unoptimized
                                 />
                                 <h4 className="h4 mb-2">{project.name}</h4>
                                 <p className="mb-2 text-lg text-muted-foreground text-center">

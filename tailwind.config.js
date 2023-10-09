@@ -29,6 +29,10 @@ module.exports = {
                     DEFAULT: 'hsl(var(--secondary))',
                     foreground: 'hsl(var(--secondary-foreground))',
                 },
+                tertiary: {
+                    DEFAULT: 'hsl(var(--tertiary))',
+                    foreground: 'hsl(var(--tertiary-foreground))',
+                },
                 destructive: {
                     DEFAULT: 'hsl(var(--destructive))',
                     foreground: 'hsl(var(--destructive-foreground))',
@@ -78,6 +82,7 @@ module.exports = {
                 '1/1': '100%',
             },
             fontFamily: {
+                'atkinson-hyperlegible': ['var(--font-atkinson-hyperlegible)', 'sans-serif'],
                 inter: ['var(--font-inter)', 'sans-serif'],
                 'architects-daughter': ['var(--font-architects-daughter)', 'sans-serif'],
             },

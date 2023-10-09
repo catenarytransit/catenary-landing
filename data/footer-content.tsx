@@ -1,0 +1,55 @@
+import { FaDiscord, FaGithub, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa'
+
+export const footerContent = {
+    logo: {
+        link: '/',
+        alt: 'Cruip',
+        src: '/images/favicon.png',
+    },
+    blocks: [
+        {
+            title: 'Products',
+            links: [
+                { href: '/', text: 'Web Studio' },
+                { href: '/', text: 'DynamicBox Flex' },
+                { href: '/', text: 'Programming Forms' },
+            ],
+        },
+        {
+            title: 'Resources',
+            links: [
+                { href: '/', text: 'Nostrud exercitation' },
+                { href: '/', text: 'Visual mockups' },
+                { href: '/', text: 'Nostrud exercitation' },
+                { href: '/', text: 'Visual mockups' },
+                { href: '/', text: 'Nostrud exercitation' },
+            ],
+        },
+        {
+            title: 'Company',
+            links: [
+                { href: '/', text: 'Consectetur adipiscing' },
+                { href: '/', text: 'Labore et dolore' },
+                { href: '/', text: 'Consectetur adipiscing' },
+                { href: '/', text: 'Labore et dolore' },
+                { href: '/', text: 'Consectetur adipiscing' },
+            ],
+        },
+    ],
+    socialLinks: [
+        { href: 'https://discord.gg/bBeDhrzSgz', icon: <FaDiscord />, alt: 'Discord' },
+        { href: 'https://twitter.com/catenarymaps', icon: <FaTwitter />, alt: 'Twitter' },
+        { href: 'https://github.com/CatenaryMaps', icon: <FaGithub />, alt: 'Github' },
+        {
+            href: 'https://www.instagram.com/catenarymaps/',
+            icon: <FaInstagram />,
+            alt: 'Instagram',
+        },
+        {
+            href: 'https://www.linkedin.com/company/97224211',
+            icon: <FaLinkedin />,
+            alt: 'Linkedin',
+        },
+    ],
+    copyright: '© Catenary Transit Initiatives. All rights reserved.',
+}

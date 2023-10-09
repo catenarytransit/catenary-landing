@@ -1,4 +1,4 @@
-import ModalVideo from '@/components/modal-video'
+import Video from '@/components/video'
 import VideoThumb from '@/public/images/screenshot1.png'
 
 export default function Hero() {
@@ -29,8 +29,8 @@ export default function Hero() {
                                 y2="577.921"
                                 gradientUnits="userSpaceOnUse"
                             >
-                                <stop stopColor="#5D5DFF" stopOpacity=".01" />
-                                <stop offset="1" stopColor="#5D5DFF" stopOpacity=".32" />
+                                <stop stopColor="#06b6d4" stopOpacity=".01" />
+                                <stop offset="1" stopColor="#06b6d4" stopOpacity=".32" />
                             </linearGradient>
                         </defs>
                         <path
@@ -65,7 +65,7 @@ export default function Hero() {
                         <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
                             <div data-aos="fade-up" data-aos-delay="400">
                                 <a
-                                    className="btn text-foreground bg-primary hover:brightness-75 w-full mb-4 sm:w-auto sm:mb-0"
+                                    className="btn text-foreground bg-primary hover:bg-cyan-500 w-full mb-4 sm:w-auto sm:mb-0"
                                     href="https://catenarymaps.org/map"
                                 >
                                     Launch Catenary Maps
@@ -73,7 +73,7 @@ export default function Hero() {
                             </div>
                             <div data-aos="fade-up" data-aos-delay="600">
                                 <a
-                                    className="btn text-foreground bg-secondary hover:brightness-125 w-full sm:w-auto sm:ml-4"
+                                    className="btn text-foreground bg-secondary hover:bg-tertiary w-full sm:w-auto sm:ml-4"
                                     href="https://discord.gg/bBeDhrzSgz"
                                 >
                                     Join our Discord
@@ -83,12 +83,9 @@ export default function Hero() {
                     </div>
 
                     {/* TODO: Make ModalVideo autoplay */}
-                    <ModalVideo
-                        thumb={VideoThumb}
-                        thumbWidth={1024}
-                        thumbHeight={576}
-                        thumbAlt="Modal video thumbnail"
+                    <Video
                         video="/videos/hero.mov"
+                        alt="Catenary Maps in action"
                         videoWidth={1920}
                         videoHeight={1080}
                     />
