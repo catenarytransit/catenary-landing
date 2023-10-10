@@ -1,6 +1,7 @@
 import { ThemeProvider } from '@/components/theme-provider'
 import Header from '@/components/ui/header'
 import { Architects_Daughter, Atkinson_Hyperlegible, Inter } from 'next/font/google'
+import type { Metadata } from 'next'
 
 import './css/style.css'
 
