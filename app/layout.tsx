@@ -19,47 +19,37 @@ const architects_daughter = Architects_Daughter({
     display: 'swap',
 })
 
-// const atkinson_hyperlegible = Atkinson_Hyperlegible({
-//     subsets: ['latin'],
-//     variable: '--font-atkinson-hyperlegible',
-//     weight: '400',
-//     display: 'swap',
-// })
-
-let title = "Powerful Realtime Public Transit Data and Algorithms",
-	description = "We're a team of students innovating and designing routing, ETA, and processing algorithms, curating and displaying high quality realtime data.    "
+const siteMetadata = {
+    title: 'Catenary Maps',
+    description: 'We\'re a fully student team focused on creating advanced routing, estimated time of arrival (ETA), and data processing algorithms. Our goal is to provide accurate real-time data in a user-friendly, accessible format.',
+    icon: '/images/logo.png',
+    twitterCard: '/images/twitter-card.png',
+}
 
 export const metadata: Metadata = {
-    title: title,
-    description: description,
+    title: siteMetadata.title,
+    description: siteMetadata.description,
     openGraph: {
-        title: title,
-        description: description,
-        url: "https://catenarymaps.org/",
-        // @ts-ignore
+        title: siteMetadata.title,
+        description: siteMetadata.description,
+        url: "./",
         type: "website",
         locale: "en_US",
         siteName: "Catenary Maps",
     },
     twitter: {
-        card: 'summary',
-        title: title,
-        description: description,
-        siteId: '',
+        title: siteMetadata.title,
+        card: 'summary_large_image',
+        images: [siteMetadata.twitterCard],
         creator: '@catenarymaps',
     },
-    themeColor: [
-        { media: "(prefers-color-scheme: light)", color: "white" },
-        { media: "(prefers-color-scheme: dark)", color: "black" },
-    ],
     icons: {
-        icon: "/images/logo.png",
+        icon: siteMetadata.icon,
     },
     category: 'technology',
-    keywords: [
-        // TODO
-    ]
-
+    alternates: {
+        canonical: './',
+    },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
