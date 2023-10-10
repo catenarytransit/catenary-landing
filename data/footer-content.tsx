@@ -7,6 +7,14 @@ export const footerContent = {
         src: '/images/favicon.png',
     },
     blocks: [
+        {
+            title: ' ',
+            links: [
+                { href: '/', text: ' ' },
+                { href: '/', text: ' ' },
+                { href: '/', text: ' ' },
+            ],
+        }
       /*
         {
             title: 'Products',
