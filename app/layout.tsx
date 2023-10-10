@@ -39,7 +39,7 @@ export const metadata: Metadata = {
         // @ts-ignore
         type: "website",
         locale: "en_US",
-        site_name: "Catenary Maps",
+        siteName: "Catenary Maps",
     },
     twitter: {
         card: 'summary',
