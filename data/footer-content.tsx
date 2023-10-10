@@ -7,6 +7,7 @@ export const footerContent = {
         src: '/images/favicon.png',
     },
     blocks: [
+      /*
         {
             title: 'Products',
             links: [
@@ -35,6 +36,7 @@ export const footerContent = {
                 { href: '/', text: 'Consectetur adipiscing' },
             ],
         },
+        */
     ],
     socialLinks: [
         { href: 'https://discord.gg/bBeDhrzSgz', icon: <FaDiscord />, alt: 'Discord' },

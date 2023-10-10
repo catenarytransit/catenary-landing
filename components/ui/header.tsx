@@ -43,7 +43,7 @@ export default function Header() {
                         <ul className="flex grow justify-end flex-wrap items-center">
                             <li className="md:order-2">
                                 <Link
-                                    href="https://catenarymaps.org/map"
+                                    href="https://maps.catenarymaps.org"
                                     className="btn-sm text-foreground bg-secondary hover:bg-tertiary ml-4"
                                 >
                                     <span>Launch </span>

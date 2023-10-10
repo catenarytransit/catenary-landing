@@ -66,7 +66,7 @@ export default function Hero() {
                             <div data-aos="fade-up" data-aos-delay="400">
                                 <a
                                     className="btn text-foreground bg-primary hover:bg-cyan-500 w-full mb-4 sm:w-auto sm:mb-0"
-                                    href="https://catenarymaps.org/map"
+                                    href="https://maps.catenarymaps.org/"
                                 >
                                     Launch Catenary Maps
                                 </a>
