@@ -1,4 +1,5 @@
 import { FaDiscord, FaGithub, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import {BsClouds} from 'react-icons/bs'
 
 export const footerContent = {
     logo: {
@@ -61,6 +62,11 @@ export const footerContent = {
             icon: <FaLinkedin />,
             alt: 'Linkedin',
         },
+        {
+            href: "https://bsky.app/profile/catenarymaps.org",
+            icon: <BsClouds />,
+            alt: 'Bluesky',
+        }
     ],
     copyright: '© Catenary Transit Initiatives. All rights reserved.',
 }
