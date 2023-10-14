@@ -4,7 +4,7 @@ export const footerContent = {
     logo: {
         link: '/',
         alt: 'Catenary Maps',
-        src: '/images/favicon.png',
+        src: '/images/favicon.svg',
     },
     blocks: [
         {

@@ -31,7 +31,7 @@ export default function Header() {
                     <div className="shrink-0 mr-4">
                         <span style={{ fontSize: '1.3em' }}>
                         <Image
-                            src="/images/favicon.png"
+                            src="/images/favicon.svg"
                             alt="Catenary Maps"
                             width={50}
                             height={30}

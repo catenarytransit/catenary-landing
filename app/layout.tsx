@@ -22,7 +22,7 @@ const architects_daughter = Architects_Daughter({
 const siteMetadata = {
     title: 'Catenary Maps',
     description: 'We\'re a fully student team focused on creating advanced routing, estimated time of arrival (ETA), and data processing algorithms. Our goal is to provide accurate real-time data in a user-friendly, accessible format.',
-    icon: '/images/logo.png',
+    icon: '/images/favicon.svg',
     twitterCard: '/images/twitter-card.png',
 }
 
