@@ -7,12 +7,7 @@ import 'aos/dist/aos.css'
 import { useEffect } from 'react'
 
 import TagManager from 'react-gtm-module'
- 
-const tagManagerArgs = {
-    gtmId: 'GTM-WD62NKLX'
-}
- 
-TagManager.initialize(tagManagerArgs)
+
 
 export default function DefaultLayout({ children }: { children: React.ReactNode }) {
     useEffect(() => {
@@ -22,6 +17,13 @@ export default function DefaultLayout({ children }: { children: React.ReactNode 
             duration: 600,
             easing: 'ease-out-sine',
         })
+
+         
+const tagManagerArgs = {
+    gtmId: 'GTM-WD62NKLX'
+}
+ 
+TagManager.initialize(tagManagerArgs)
     })
 
     return (
