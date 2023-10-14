@@ -22,8 +22,14 @@ export default function Footer() {
                                     aria-label={footerContent.logo.alt}
                                 >
                                     <img
-                                        src={footerContent.logo.src}
-                                        className="h-8"
+                                        src={footerContent.logo.srcLightMode}
+                                        className="h-8 logoLight"
+                                        alt={footerContent.logo.alt}
+                                    />
+                                    <img
+                                        src={footerContent.logo.srcDarkMode}
+                                        className="h-8 logoDark"
+                                        style={{ display: 'none' }}
                                         alt={footerContent.logo.alt}
                                     />
                                 </Link>
