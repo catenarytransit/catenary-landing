@@ -29,12 +29,15 @@ export default function Header() {
                 <div className="flex items-center justify-between h-16 md:h-20">
                     {/* Site branding */}
                     <div className="shrink-0 mr-4">
+                        <span style={{ fontSize: '1.3em' }}>
                         <Image
                             src="/images/favicon.png"
                             alt="Catenary Maps"
-                            width={32}
-                            height={32}
+                            width={50}
+                            height={30}
+                            style={{ display: 'inline-block', marginRight: '16px' }}
                         />
+                        Catenary Maps</span>
                     </div>
 
                     {/* Desktop navigation */}

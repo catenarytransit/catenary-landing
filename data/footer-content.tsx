@@ -3,7 +3,7 @@ import { FaDiscord, FaGithub, FaInstagram, FaLinkedin, FaTwitter } from 'react-i
 export const footerContent = {
     logo: {
         link: '/',
-        alt: 'Cruip',
+        alt: 'Catenary Maps',
         src: '/images/favicon.png',
     },
     blocks: [
@@ -48,7 +48,7 @@ export const footerContent = {
     ],
     socialLinks: [
         { href: 'https://discord.gg/bBeDhrzSgz', icon: <FaDiscord />, alt: 'Discord' },
-        { href: 'https://twitter.com/catenarymaps', icon: <FaTwitter />, alt: 'Twitter' },
+        { href: 'https://twitter.com/CatenaryMaps', icon: <FaTwitter />, alt: 'Twitter' },
         { href: 'https://github.com/CatenaryMaps', icon: <FaGithub />, alt: 'Github' },
         {
             href: 'https://www.instagram.com/catenarymaps/',

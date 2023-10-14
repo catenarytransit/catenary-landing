@@ -23,7 +23,7 @@ export default function Footer() {
                                 >
                                     <img
                                         src={footerContent.logo.src}
-                                        className="w-8 h-8"
+                                        className="h-8"
                                         alt={footerContent.logo.alt}
                                     />
                                 </Link>
