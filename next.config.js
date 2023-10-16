@@ -14,7 +14,7 @@ const nextConfig = {
           },
           {
             source: '/status',
-            destination: 'http://localhost:5842/public-dashboards/88133c635c5c44748691575081b52cae',
+            destination: 'https://grafana.catenarymaps.org/public-dashboards/88133c635c5c44748691575081b52cae',
             permanent: false
           }
         ]
