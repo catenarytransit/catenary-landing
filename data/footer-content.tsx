@@ -10,43 +10,11 @@ export const footerContent = {
     },
     blocks: [
         {
-            title: ' ',
+            title: '',
             links: [
-                { href: '/', text: ' ' },
-                { href: '/', text: ' ' },
-                { href: '/', text: ' ' },
-            ],
-        }
-      /*
-        {
-            title: 'Products',
-            links: [
-                { href: '/', text: 'Web Studio' },
-                { href: '/', text: 'DynamicBox Flex' },
-                { href: '/', text: 'Programming Forms' },
+                { href: 'https://grafana.catenarymaps.org/public-dashboards/0667d5c864ab4da68baaa45d8e22832b?orgId=1', text: 'Status' },
             ],
         },
-        {
-            title: 'Resources',
-            links: [
-                { href: '/', text: 'Nostrud exercitation' },
-                { href: '/', text: 'Visual mockups' },
-                { href: '/', text: 'Nostrud exercitation' },
-                { href: '/', text: 'Visual mockups' },
-                { href: '/', text: 'Nostrud exercitation' },
-            ],
-        },
-        {
-            title: 'Company',
-            links: [
-                { href: '/', text: 'Consectetur adipiscing' },
-                { href: '/', text: 'Labore et dolore' },
-                { href: '/', text: 'Consectetur adipiscing' },
-                { href: '/', text: 'Labore et dolore' },
-                { href: '/', text: 'Consectetur adipiscing' },
-            ],
-        },
-        */
     ],
     socialLinks: [
         { href: 'https://discord.gg/bBeDhrzSgz', icon: <FaDiscord />, alt: 'Discord' },
