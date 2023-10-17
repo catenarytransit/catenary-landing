@@ -50,7 +50,7 @@ export default function Header() {
                     </div>
 
                     {/* Desktop navigation */}
-                    <nav className="hidden md:flex md:grow">
+                    <nav className="flex grow">
                         {/* Desktop sign in links */}
                         <ul className="flex grow justify-end flex-wrap items-center">
                             <li className="md:order-2">
@@ -71,7 +71,7 @@ export default function Header() {
                                     </svg>
                                 </Link>
                             </li>
-                            <li className="flex mb-4 md:ml-4 md:mb-0">
+                            <li className="hidden md:flex mb-4 md:ml-4 md:mb-0">
                                 {footerContent.socialLinks.map((socialLink, index) => (
                                     <span className={index !== 0 ? 'ml-4' : ''} key={index}>
                                         <Link

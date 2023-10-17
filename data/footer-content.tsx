@@ -10,9 +10,9 @@ export const footerContent = {
     },
     blocks: [
         {
-            title: '',
+            title: 'Status',
             links: [
-                { href: '/status', text: 'Status' },
+                { href: '/status', text: 'View Map Uptime' },
             ],
         },
     ],
