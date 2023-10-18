@@ -11,9 +11,9 @@ export const footerContent = {
     },
     blocks: [
         {
-            title: '',
+            title: 'Status',
             links: [
-                { href: 'https://grafana.catenarymaps.org/public-dashboards/0667d5c864ab4da68baaa45d8e22832b?orgId=1', text: 'Status' },
+                { href: '/status', text: 'View Map Uptime' },
             ],
         },
     ],

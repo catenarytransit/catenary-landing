@@ -45,7 +45,7 @@ export default function Hero() {
                 {/* Hero content */}
                 <div className="relative pt-32 pb-12 md:pt-40 md:pb-16">
                     {/* Section header */}
-                    <div className="max-w-3xl mx-auto text-center tpb-12 md:pb-16">
+                    <div className="max-w-3xl mx-auto text-center tpb-12 pb-16">
                         <h1 className="h1 mb-4" data-aos="fade-up">
                             Powerful transit data and algorithms—
                             <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-teal-500">
