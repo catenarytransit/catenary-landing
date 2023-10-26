@@ -6,6 +6,7 @@
 @import 'additional-styles/range-slider.css';
 @import 'additional-styles/toggle-switch.css';
 @import 'additional-styles/theme.css';
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
 
 @import 'tailwindcss/utilities';
 
@@ -14,6 +15,10 @@
     .rtl {
         direction: rtl;
     }
+}
+
+* {
+    font-family: 'Atkinson Hyperlegible' !important;
 }
 
 /* See Alpine.js: https://github.com/alpinejs/alpine#x-cloak */

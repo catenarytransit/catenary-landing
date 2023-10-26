@@ -1,23 +1,8 @@
 import { ThemeProvider } from '@/components/theme-provider'
 import Header from '@/components/ui/header'
-import { Architects_Daughter, Atkinson_Hyperlegible, Inter } from 'next/font/google'
 import type { Metadata } from 'next'
 
 import './css/style.css'
-
-const inter = Atkinson_Hyperlegible({
-    subsets: ['latin'],
-    variable: '--font-inter',
-    weight: '400',
-    display: 'swap',
-})
-
-const architects_daughter = Architects_Daughter({
-    subsets: ['latin'],
-    variable: '--font-architects-daughter',
-    weight: '400',
-    display: 'swap',
-})
 
 const siteMetadata = {
     title: 'Catenary Maps',
@@ -56,7 +41,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     return (
         <html lang="en">
             <body
-                className={`${inter.variable} ${architects_daughter.variable} font-inter antialiased bg-background text-foreground`}
+                className={`antialiased bg-background text-foreground`}
             >
                 <ThemeProvider
                     attribute="class"
