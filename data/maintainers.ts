@@ -21,7 +21,7 @@ export const maintainers: Person[] = [
         pronouns: 'he/him',
         school: 'California State University, Los Angeles',
         src: 'https://github.com/CatenaryMaps.png',
-        link: 'https://github.com/CatenaryMaps',
+        link: 'https://github.com/pyover180',
         title: 'Boardmember, Sysadmin, Systems Architecture, Algorithms',
     },
     {
