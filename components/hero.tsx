@@ -48,7 +48,7 @@ export default function Hero() {
                     <div className="max-w-3xl mx-auto text-center tpb-12 pb-16">
                         <h1 className="h1 mb-4" data-aos="fade-up">
                             Powerful transit data and algorithms—
-                            <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-500">
+                            <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-blue-500">
                                 all in realtime
                             </span>
                         </h1>
@@ -65,7 +65,7 @@ export default function Hero() {
                         <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
                             <div data-aos="fade-up" data-aos-delay="400">
                                 <a
-                                    className="btn text-foreground bg-primary hover:bg-blue-500 w-full mb-4 sm:w-auto sm:mb-0"
+                                    className="btn text-white bg-primary hover:bg-blue-500 w-full mb-4 sm:w-auto sm:mb-0"
                                     href="https://maps.catenarymaps.org/"
                                 >
                                     Launch Catenary Maps
