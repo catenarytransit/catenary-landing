@@ -11,6 +11,7 @@ export const footerContent = {
     },
     blocks: [
         {
+            title: "Links",
             links: [
                 { href: 'https://maps.catenarymaps.org', text: 'Launch Catenary' },
                 { href: '/status', text: 'System Status' },
