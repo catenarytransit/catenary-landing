@@ -9,7 +9,7 @@ export default function MaintainersList() {
                 <div className="py-12 md:py-20">
                     {/* Section header */}
                     <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-                        <h2 className="h2 mb-4">We&apos;re humans, too.</h2>
+                        <h2 className="h2 mb-4">We&apos;re humans, too</h2>
                         <p className="text-xl text-muted-foreground">
                             The Catenary team is a diverse group of students working to make transit
                             easier for everyone.

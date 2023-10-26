@@ -54,7 +54,7 @@ export default function Newsletter() {
                             <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-none">
                                 <input
                                     type="email"
-                                    className="w-full appearance-none bg-cyan-700 border border-cyan-500 focus:border-cyan-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-foreground placeholder-cyan-400"
+                                    className="w-full appearance-none bg-cyan-700 border border-blue-500 focus:border-cyan-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-foreground placeholder-cyan-400"
                                     placeholder="Your best email…"
                                     aria-label="Your best email…"
                                 />
