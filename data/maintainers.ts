@@ -57,20 +57,11 @@ export const maintainers: Person[] = [
         titles: ['Frontend/Flutter', 'User Design'],
     },
     {
-        name: 'Josh Wong',
-        pronouns: 'he/him',
-        school: 'Santa Monica College & Don Bosco Technical Institute, Rosemead',
-        src: 'https://github.com/lolpro11.png',
-        link: 'https://github.com/lolpro11',
-        titles: ['Sysadmin', 'Systems Programmer', 'Algorithms'],
-    },
-    {
         name: 'Jason T.',
         pronouns: 'he/him',
         school: 'University of California, San Diego',
         src: 'http://github.com/jktrn.png',
         link: 'https://enscribe.dev',
-        link: 'https://github.com/jktrn',
         titles: ['Frontend/Web', 'UX/UI', 'Accessibility Design'],
     },
 ]
