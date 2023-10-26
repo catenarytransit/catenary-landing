@@ -1,7 +1,7 @@
 'use client'
 
 import { Transition } from '@headlessui/react'
-import { Image as ImageIcon, ScanEye, ScanSearch } from 'lucide-react'
+import { DatabaseIcon, EyeIcon, ScanSearch } from 'lucide-react'
 import Image from 'next/image'
 import { useEffect, useRef, useState } from 'react'
 
@@ -72,7 +72,7 @@ export default function Tabs() {
                                         </div>
                                     </div>
                                     <div className="flex justify-center items-center w-8 h-8 bg-background rounded-full shadow flex-shrink-0 ml-3">
-                                        <ImageIcon size={16} />
+                                        <EyeIcon size={16} />
                                     </div>
                                 </a>
                                 <a
@@ -125,7 +125,7 @@ export default function Tabs() {
                                         </div>
                                     </div>
                                     <div className="flex justify-center items-center w-8 h-8 bg-background rounded-full shadow flex-shrink-0 ml-3">
-                                        <ScanEye size={16} />
+                                        <DatabaseIcon size={16} />
                                     </div>
                                 </a>
                             </div>
