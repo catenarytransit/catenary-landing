@@ -13,7 +13,7 @@ export const maintainers: Person[] = [
         pronouns: 'he/him',
         school: 'University of California, Irvine',
         src: 'https://github.com/kylerchin.png',
-        link: 'https://github.com/kylerchin',
+        link: 'https://kylerchin.comhttps://kylerchin.com/',
         title: 'Boardmember, Founder, Director, Systems Programmer, Algorithms, Frontend, Design',
     },
     {
@@ -61,7 +61,7 @@ export const maintainers: Person[] = [
         pronouns: 'he/him',
         school: 'University of California, San Diego',
         src: 'http://github.com/jktrn.png',
-        link: 'https://github.com/jktrn',
+        link: 'https://enscribe.dev',
         title: 'Frontend/Web Development, UX/UI, Accessibility Design',
     },
 ]
