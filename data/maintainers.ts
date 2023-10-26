@@ -30,7 +30,7 @@ export const maintainers: Person[] = [
         school: 'University of California, Irvine',
         src: 'https://github.com/AndrewHC36.png',
         link: 'https://github.com/AndrewHC36',
-        titles: ['Boardmember', 'Frontend/Flutter', 'Algorithms', 'Machine Learning'],
+        titles: ['Catenary Board', 'Frontend/Flutter', 'Algorithms', 'Machine Learning'],
     },
     {
         name: 'Josh Wong',
