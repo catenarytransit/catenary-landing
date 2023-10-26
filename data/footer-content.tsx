@@ -11,9 +11,10 @@ export const footerContent = {
     },
     blocks: [
         {
-            title: 'Status',
             links: [
-                { href: '/status', text: 'View Map Uptime' },
+                { href: 'https://maps.catenarymaps.org', text: 'Launch Catenary' },
+                { href: '/status', text: 'System Status' },
+                { href: 'https://discord.gg/bBeDhrzSgz', text: 'Join Discord' },
             ],
         },
     ],
