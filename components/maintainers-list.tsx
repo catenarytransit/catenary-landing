@@ -46,11 +46,11 @@ export default function MaintainersList() {
                                 </span>
                                 <span className="text-center mb-2">{person.school}</span>
                                 <span className="mb-2 flex flex-wrap items-center justify-center">
-                                    {person.title.split(', ').map((role, idx) => (
+                                    {person.titles.map((role, idx) => (
                                         <Badge
                                             key={idx}
                                             variant="outline"
-                                            className="!font-normal m-[1px]"
+                                            className={`!font-normal m-[1px] ${role == 'Catenary Board' ? 'text-yellow-500' : ''} ${role == 'Director' ? 'text-blue-300' : ''}`}
                                         >
                                             {role}
                                         </Badge>

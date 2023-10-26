@@ -4,7 +4,7 @@ export interface Person {
     school: string
     src: string // Image source
     link: string // Github profile
-    title: string // Comma-separated
+    titles: string[]
 }
 
 export const maintainers: Person[] = [
@@ -14,15 +14,15 @@ export const maintainers: Person[] = [
         school: 'University of California, Irvine',
         src: 'https://github.com/kylerchin.png',
         link: 'https://kylerchin.com',
-        title: 'Boardmember, Founder, Director, Systems Programmer, Algorithms, Frontend, Design',
+        titles: ['Director', 'Catenary Board', 'Systems Programmer', 'Algorithms', 'Frontend', 'Design']
     },
     {
         name: 'Kin Tsang',
         pronouns: 'he/him',
         school: 'California State University, Los Angeles',
-        src: 'https://github.com/CatenaryMaps.png',
+        src: 'https://github.com/pyover180.png',
         link: 'https://github.com/pyover180',
-        title: 'Boardmember, Sysadmin, Systems Architecture, Algorithms',
+        titles: ['Catenary Board', 'Systems Architecture', 'Algorithms'],
     },
     {
         name: 'Andrew Shen',
@@ -30,7 +30,7 @@ export const maintainers: Person[] = [
         school: 'University of California, Irvine',
         src: 'https://github.com/AndrewHC36.png',
         link: 'https://github.com/AndrewHC36',
-        title: 'Boardmember, Frontend/Flutter, Algorithms, Machine Learning',
+        titles: ['Boardmember, Frontend/Flutter, Algorithms, Machine Learning'],
     },
     {
         name: 'Josh Wong',
@@ -38,7 +38,7 @@ export const maintainers: Person[] = [
         school: 'Santa Monica College & Don Bosco Technical Institute, Rosemead',
         src: 'https://github.com/lolpro11.png',
         link: 'https://github.com/lolpro11',
-        title: 'Director, Sysadmin, Systems Programmer, Algorithms',
+        titles: ['Director', 'Sysadmin', 'Systems Programmer', 'Algorithms'],
     },
     {
         name: 'Samuel Sharp',
@@ -46,7 +46,7 @@ export const maintainers: Person[] = [
         school: 'San Diego High School',
         src: 'https://github.com/samuelbeepdev.png',
         link: 'https://samuelsharp.com',
-        title: 'Frontend/Flutter, Design, UX/UI',
+        titles: ['Frontend/Web', 'Frontend/Flutter', 'Design', 'UX/UI'],
     },
     {
         name: 'Andrew Bustos',
@@ -54,7 +54,15 @@ export const maintainers: Person[] = [
         school: 'California State University, East Bay',
         src: 'https://github.com/BustosAndrew.png',
         link: 'https://github.com/BustosAndrew',
-        title: 'Frontend/Flutter, User Design',
+        titles: ['Frontend/Flutter', 'User Design'],
+    },
+    {
+        name: 'Josh Wong',
+        pronouns: 'he/him',
+        school: 'Santa Monica College & Don Bosco Technical Institute, Rosemead',
+        src: 'https://github.com/lolpro11.png',
+        link: 'https://github.com/lolpro11',
+        titles: ['Sysadmin', 'Systems Programmer', 'Algorithms'],
     },
     {
         name: 'Jason T.',
@@ -62,6 +70,7 @@ export const maintainers: Person[] = [
         school: 'University of California, San Diego',
         src: 'http://github.com/jktrn.png',
         link: 'https://enscribe.dev',
-        title: 'Frontend/Web Development, UX/UI, Accessibility Design',
+        link: 'https://github.com/jktrn',
+        titles: ['Frontend/Web', 'UX/UI', 'Accessibility Design'],
     },
 ]
