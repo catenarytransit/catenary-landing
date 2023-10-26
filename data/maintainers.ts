@@ -54,7 +54,7 @@ export const maintainers: Person[] = [
         school: 'Santa Monica College & Don Bosco Technical Institute, Rosemead',
         src: 'https://github.com/lolpro11.png',
         link: 'https://github.com/lolpro11',
-        title: 'Sysadmin, Systems Programmer, Algorithms',
+        title: 'Director, Sysadmin, Systems Programmer, Algorithms',
     },
     {
         name: 'Jason T.',
