@@ -1,7 +1,7 @@
 import { ThemeProvider } from '@/components/theme-provider'
 import Header from '@/components/ui/header'
-import { Architects_Daughter, Atkinson_Hyperlegible, Inter } from 'next/font/google'
 import type { Metadata } from 'next'
+import { Architects_Daughter, Atkinson_Hyperlegible, Inter } from 'next/font/google'
 
 import './css/style.css'
 
@@ -21,7 +21,8 @@ const architects_daughter = Architects_Daughter({
 
 const siteMetadata = {
     title: 'Catenary Maps',
-    description: 'We\'re a fully student team focused on creating advanced routing, estimated time of arrival (ETA), and data processing algorithms. Our goal is to provide accurate real-time data in a user-friendly, accessible format.',
+    description:
+        "We're a fully student team focused on creating advanced routing, estimated time of arrival (ETA), and data processing algorithms. Our goal is to provide accurate real-time data in a user-friendly, accessible format.",
     icon: '/images/favicon.svg',
     twitterCard: '/images/twitter-card.png',
 }
@@ -32,10 +33,10 @@ export const metadata: Metadata = {
     openGraph: {
         title: siteMetadata.title,
         description: siteMetadata.description,
-        url: "./",
-        type: "website",
-        locale: "en_US",
-        siteName: "Catenary Maps",
+        url: './',
+        type: 'website',
+        locale: 'en_US',
+        siteName: 'Catenary Maps',
     },
     twitter: {
         title: siteMetadata.title,
@@ -50,7 +51,7 @@ export const metadata: Metadata = {
     alternates: {
         canonical: './',
     },
-};
+}
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (

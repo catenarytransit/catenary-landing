@@ -1,3 +1,4 @@
+import { Badge } from '@/components/ui/badge'
 import { maintainers } from '@/data/maintainers'
 import Image from 'next/image'
 
@@ -10,7 +11,8 @@ export default function MaintainersList() {
                     <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
                         <h2 className="h2 mb-4">We&apos;re humans, too.</h2>
                         <p className="text-xl text-muted-foreground">
-                            The Catenary team is a diverse group of students working to make transit easier for everyone.
+                            The Catenary team is a diverse group of students working to make transit
+                            easier for everyone.
                         </p>
                     </div>
 
@@ -26,19 +28,34 @@ export default function MaintainersList() {
                                 data-aos="fade-up"
                                 data-aos-anchor="[data-aos-id-blocks]"
                             >
-                                <Image
-                                    src={person.src}
-                                    alt='Profile picture'
-                                    width={80}
-                                    height={80}
-                                    className="mb-8 rounded-full border border-border"
-                                    unoptimized
-                                />
-                                <a href={person.link} className="text-primary" target="_blank"><h3 className="h4 mb-2">{person.name}</h3></a>
-                                <h4 className="h5 mb-2">{person.pronouns} - {person.school}</h4>
-                                <p className="mb-2 text-lg text-muted-foreground text-center">
-                                    {person.title}
-                                </p>
+                                <a href={person.link} target="_blank">
+                                    <Image
+                                        src={person.src}
+                                        alt="Profile picture"
+                                        width={80}
+                                        height={80}
+                                        className="mb-4 rounded-full border border-border"
+                                        unoptimized
+                                    />
+                                </a>
+                                <a href={person.link} target="_blank">
+                                    <span className="h4">{person.name}</span>
+                                </a>
+                                <span className="ml-1 text-muted-foreground text-xs">
+                                    {person.pronouns}
+                                </span>
+                                <span className="text-center mb-2">{person.school}</span>
+                                <span className="mb-2 flex flex-wrap items-center justify-center">
+                                    {person.title.split(', ').map((role, idx) => (
+                                        <Badge
+                                            key={idx}
+                                            variant="outline"
+                                            className="!font-normal m-[1px]"
+                                        >
+                                            {role}
+                                        </Badge>
+                                    ))}
+                                </span>
                             </div>
                         ))}
                     </div>

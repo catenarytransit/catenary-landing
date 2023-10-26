@@ -30,23 +30,24 @@ export default function Header() {
                     {/* Site branding */}
                     <div className="shrink-0 mr-4">
                         <span style={{ fontSize: '1.3em' }}>
-                        <img
-                                        src={footerContent.logo.srcLightMode}
-                                        className="logoLight"
-                                        alt={footerContent.logo.alt}
-                                        width={50}
-                                        height={30}
-                                        style={{ display: 'inline-block', marginRight: '16px' }}
-                                    />
-                                    <img
-                                        src={footerContent.logo.srcDarkMode}
-                                        className="logoDark"
-                                        alt={footerContent.logo.alt}
-                                        width={50}
-                                        height={30}
-                                        style={{ display: 'none', marginRight: '16px' }}
-                                    />
-                        Catenary Maps</span>
+                            <img
+                                src={footerContent.logo.srcLightMode}
+                                className="logoLight"
+                                alt={footerContent.logo.alt}
+                                width={50}
+                                height={30}
+                                style={{ display: 'inline-block', marginRight: '16px' }}
+                            />
+                            <img
+                                src={footerContent.logo.srcDarkMode}
+                                className="logoDark"
+                                alt={footerContent.logo.alt}
+                                width={50}
+                                height={30}
+                                style={{ display: 'none', marginRight: '16px' }}
+                            />
+                            Catenary Maps
+                        </span>
                     </div>
 
                     {/* Desktop navigation */}

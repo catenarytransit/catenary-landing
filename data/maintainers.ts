@@ -4,14 +4,14 @@ export interface Person {
     school: string
     src: string // Image source
     link: string // Github profile
-    title: string
+    title: string // Comma-separated
 }
 
 export const maintainers: Person[] = [
     {
         name: 'Kyler Chin',
         pronouns: 'he/him',
-        school: 'UC Irvine',
+        school: 'University of California, Irvine',
         src: 'https://github.com/kylerchin.png',
         link: 'https://github.com/kylerchin',
         title: 'Boardmember, Founder, Director, Systems Programmer, Algorithms, Frontend, Design',
@@ -19,7 +19,7 @@ export const maintainers: Person[] = [
     {
         name: 'Kin Tsang',
         pronouns: 'he/him',
-        school: 'Cal State LA',
+        school: 'California State University, Los Angeles',
         src: 'https://github.com/CatenaryMaps.png',
         link: 'https://github.com/CatenaryMaps',
         title: 'Boardmember, Systems Architecture, Algorithms',
@@ -27,7 +27,7 @@ export const maintainers: Person[] = [
     {
         name: 'Andrew Shen',
         pronouns: 'he/him',
-        school: 'UC Irvine',
+        school: 'University of California, Irvine',
         src: 'https://github.com/AndrewHC36.png',
         link: 'https://github.com/AndrewHC36',
         title: 'Boardmember, Frontend/Flutter',
@@ -43,7 +43,7 @@ export const maintainers: Person[] = [
     {
         name: 'Andrew Bustos',
         pronouns: 'he/him',
-        school: 'CSU East Bay',
+        school: 'California State University, East Bay',
         src: 'https://github.com/BustosAndrew.png',
         link: 'https://github.com/BustosAndrew',
         title: 'Frontend/Flutter, User Design',
@@ -55,5 +55,13 @@ export const maintainers: Person[] = [
         src: 'https://github.com/lolpro11.png',
         link: 'https://github.com/lolpro11',
         title: 'Sysadmin, Systems Programmer, Algorithms',
-    }
+    },
+    {
+        name: 'Jason T.',
+        pronouns: 'he/him',
+        school: 'University of California, San Diego',
+        src: 'http://github.com/jktrn.png',
+        link: 'https://github.com/jktrn',
+        title: 'Frontend/Web Development, UX/UI, Accessibility Design',
+    },
 ]
