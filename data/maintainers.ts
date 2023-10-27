@@ -14,7 +14,7 @@ export const maintainers: Person[] = [
         school: 'University of California, Irvine',
         src: 'https://github.com/kylerchin.png',
         link: 'https://kylerchin.com',
-        titles: ['Director', 'Catenary Board', 'Systems Programmer', 'Algorithms', 'Frontend', 'Design']
+        titles: ['Executive Director', 'Catenary Board', 'Systems Programmer', 'Distributed Computing', 'Algorithms', 'Frontend', 'Design']
     },
     {
         name: 'Kin Tsang',
@@ -22,7 +22,7 @@ export const maintainers: Person[] = [
         school: 'California State University, Los Angeles',
         src: 'https://github.com/pyover180.png',
         link: 'https://github.com/pyover180',
-        titles: ['Catenary Board', 'Systems Architecture', 'Algorithms'],
+        titles: ['Director','Catenary Board', 'Systems Architecture', 'Algorithms'],
     },
     {
         name: 'Andrew Shen',
@@ -30,7 +30,7 @@ export const maintainers: Person[] = [
         school: 'University of California, Irvine',
         src: 'https://github.com/AndrewHC36.png',
         link: 'https://github.com/AndrewHC36',
-        titles: ['Catenary Board', 'Frontend/Flutter', 'Algorithms', 'Machine Learning'],
+        titles: ['Director','Catenary Board', 'Frontend/Flutter', 'Algorithms', 'Machine Learning'],
     },
     {
         name: 'Josh Wong',

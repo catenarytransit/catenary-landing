@@ -9,8 +9,9 @@ export default function MaintainersList() {
                 <div className="py-12 md:py-20">
                     {/* Section header */}
                     <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-                        <h2 className="h2 mb-4">We might be humans, too?</h2>
-                        <p className="text-xl text-muted-foreground">
+                        <h2 className="h2 mb-4">Meet our team!</h2>
+                        {/*We might be humans too?*/}
+                        <p className="md:text-xl text-muted-foreground">
                             The Catenary team is a diverse group of students working to make transit
                             easier for everyone.
                         </p>
@@ -50,7 +51,7 @@ export default function MaintainersList() {
                                         <Badge
                                             key={idx}
                                             variant="outline"
-                                            className={`!font-normal m-[1px] ${role == 'Catenary Board' ? 'text-yellow-500' : ''} ${role == 'Director' ? 'text-blue-300' : ''}`}
+                                            className={`!font-normal m-[1px] ${role == 'Catenary Board' ? 'text-yellow-500' : ''} ${role == 'Director' ? 'text-blue-400 dark:text-blue-300' : ''} ${role == 'Executive Director' ? 'text-purple-500 dark:text-purple-300' : ''}`}
                                         >
                                             {role}
                                         </Badge>

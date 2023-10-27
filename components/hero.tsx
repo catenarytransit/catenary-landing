@@ -53,7 +53,7 @@ export default function Hero() {
                             </span>
                         </h1>
                         <p
-                            className="text-xl text-muted-foreground mb-8"
+                            className="md:text-xl text-muted-foreground mb-8"
                             data-aos="fade-up"
                             data-aos-delay="200"
                         >
