@@ -57,7 +57,7 @@ export const maintainers: Person[] = [
         titles: ['Frontend/Web', 'UX/UI', 'Accessibility Design'],
     },
     {
-        name: "Brandon Zuo",
+        name: "Brandon Z.",
         pronouns: "he/they",
         school: "University of Southern California",
         src: "https://github.com/catenarymaps.png",
