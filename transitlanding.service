@@ -1,5 +1,5 @@
 [Unit]
-Description=Transit Frontend
+Description=Transit Landing Page
 After=network.target
 StartLimitIntervalSec=0
 
