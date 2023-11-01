@@ -1,11 +1,9 @@
+
 name: Build JS
 
 on:
   push:
   pull_request:
-
-env:
-  CARGO_TERM_COLOR: always
 
 jobs:
   build:
@@ -18,4 +16,4 @@ jobs:
     - name: Install Node Dependency
       run: bun install
     - name: Build
-      run: bun --bun run build
+      run: bun run build
