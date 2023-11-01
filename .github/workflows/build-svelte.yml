@@ -1,0 +1,21 @@
+name: Build JS
+
+on:
+  push:
+  pull_request:
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - uses: oven-sh/setup-bun@v1
+    - name: Install Node Dependency
+      run: bun install
+    - name: Build
+      run: bun run build
