@@ -18,4 +18,4 @@ jobs:
     - name: Install Node Dependency
       run: bun install
     - name: Build
-      run: bun run build
+      run: bun --bun run build
