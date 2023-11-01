@@ -1,4 +1,4 @@
-name: Build Svelte using Bun
+name: Build JS
 
 on:
   push:
