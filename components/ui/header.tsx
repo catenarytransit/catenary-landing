@@ -29,27 +29,28 @@ export default function Header() {
                 <div className="flex items-center justify-between h-16 md:h-20">
                     {/* Site branding */}
                     <div className="shrink-0 mr-4">
-                        <span style={{ fontSize: '1.3em' }}>
-                            <img
-                                src={footerContent.logo.srcLightMode}
-                                className="logoLight"
-                                alt={footerContent.logo.alt}
-                                width={50}
-                                height={30}
-                                style={{ display: 'inline-block', marginRight: '16px' }}
-                            />
-                            <img
-                                src={footerContent.logo.srcDarkMode}
-                                className="logoDark"
-                                alt={footerContent.logo.alt}
-                                width={50}
-                                height={30}
-                                style={{ display: 'none', marginRight: '16px' }}
-                            />
-                            Catenary Maps
-                        </span>
+                        <a href="https://catenarymaps.org">
+                            <span style={{ fontSize: '1.3em' }}>
+                                <img
+                                    src={footerContent.logo.srcLightMode}
+                                    className="logoLight"
+                                    alt={footerContent.logo.alt}
+                                    width={50}
+                                    height={30}
+                                    style={{ display: 'inline-block', marginRight: '16px' }}
+                                />
+                                <img
+                                    src={footerContent.logo.srcDarkMode}
+                                    className="logoDark"
+                                    alt={footerContent.logo.alt}
+                                    width={50}
+                                    height={30}
+                                    style={{ display: 'none', marginRight: '16px' }}
+                                />
+                                Catenary Maps
+                            </span>
+                        </a>
                     </div>
-
                     {/* Desktop navigation */}
                     <nav className="flex grow">
                         {/* Desktop sign in links */}
