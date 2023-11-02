@@ -119,8 +119,8 @@ export default function Tabs() {
                                             Precise, accurate data
                                         </div>
                                         <div className="text-muted-foreground">
-                                            Data from transit agencies refreshes every 60 seconds,
-                                            enhanced by our proprietary algorithms for an accurate
+                                            Data from transit agencies refreshes between every 1 to 60 seconds,
+                                            enhanced by our innovative algorithms for an accurate
                                             real-time journey snapshot.
                                         </div>
                                     </div>
