@@ -12,7 +12,8 @@ export const footerContent = {
         {
             title: 'Links',
             links: [
-                { href: 'https://maps.catenarymaps.org', text: 'Launch Catenary' },
+                { href: 'https://maps.catenarymaps.org', text: 'Catenary Maps' },
+                { href: 'https://timetable.catenarymaps.org', text: 'Catenary Maps Timetables' },
                 { href: '/status', text: 'System Status' },
                 { href: 'https://discord.gg/bBeDhrzSgz', text: 'Join Discord' },
             ],
