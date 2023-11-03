@@ -17,6 +17,12 @@ export const footerContent = {
                 { href: 'https://discord.gg/bBeDhrzSgz', text: 'Join Discord' },
             ],
         },
+        {
+            title: "Talks & Lectures",
+            links: [
+                {href: '/gtfstalk', text: "GTFS Talk"}
+            ]
+        }
     ],
     socialLinks: [
         { href: 'https://discord.gg/bBeDhrzSgz', icon: <FaDiscord />, alt: 'Discord' },
