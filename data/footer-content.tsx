@@ -16,6 +16,7 @@ export const footerContent = {
            //     { href: 'https://timetable.catenarymaps.org', text: 'Catenary Maps Timetables' },
                 { href: '/status', text: 'System Status' },
                 { href: 'https://discord.gg/bBeDhrzSgz', text: 'Join Discord' },
+                { href: '/privacy', text: 'Privacy Policy' },
             ],
         },
         {
