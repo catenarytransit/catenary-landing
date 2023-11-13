@@ -29,7 +29,7 @@ export default function Page() {
                                     Identifiable information is never shared with other users without your permission, nor permenantly stored by our servers.
                                 </li>
                                 <li>
-                                    We collect information gathered from a sign-in providers, such as Google or Apple. This includes your name, email address, and profile picture.
+                                    We collect information gathered from sign-in providers, such as Google or Apple. This includes your name, email address, and profile picture.
                                 </li>
                                 <li>
                                     We collect and store information about your preferences, saved locations, pinned routes or stations, realtime data contributions, and other customisations. This is linked with your profile.
@@ -38,7 +38,7 @@ export default function Page() {
                                     We collect telemetry data about your device, such as the operating system and model of your phone. We also collect what routes, stops, and trips you view. This helps us understand what our users are looking at better.
                                 </li>
                                 <li>
-                                    When purchasing transit tickets on Catenary, we may collect your name, phone number, address, email address, and payment information, and other elements needed to complete a transaction.
+                                    When purchasing transit tickets on Catenary, we may collect your name, phone number, address, email address, and payment information, along with any and all other elements required to complete a transaction.
                                 </li>
                                 <li>
                                     Catenary Maps may access your contacts or calendar events on your phone.
