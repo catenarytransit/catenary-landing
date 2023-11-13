@@ -63,7 +63,7 @@ export default function Page() {
                                 <br/>
                                 The right to data portability – You have the right to request that Our Company transfer the data that we have collected to another organization, or directly to you, under certain conditions.
                                 <br/>
-                                If you would like to make a request, please contact us at privacy@catenarymaps.org. We have 1 month to respond to you.
+                                If you would like to make a request, please contact us at <a href="mailto:privacy@catenarymaps.org">privacy@catenarymaps.org</a>. We have 1 month to respond to you.
                             </p>
                             </div>
 
