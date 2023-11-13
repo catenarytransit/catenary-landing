@@ -12,7 +12,7 @@ export default function Page() {
                                 Catenary Maps Privacy Policy
                             </span>
                             <div className="">
-                            Catenary Transit Initatives ("Us", "Our", "We), a California public benefit non-profit corporation doing business as "Catenary Maps" collects information about your device, your location, and your connected login accounts to provide you with realtime public transport directions and data.
+                            Catenary Transit Initatives ("Us", "Our", "We"), a California public benefit non-profit corporation doing business as "Catenary Maps" collects information about your device, your location, and your connected login accounts to provide you with realtime public transport directions and data.
                             <br/><br/>
                             By using Catenary Maps, you accept the terms and conditions described in this Privacy Policy.
                             <br/><br/>
