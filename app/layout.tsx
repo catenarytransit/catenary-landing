@@ -5,6 +5,49 @@ import { Architects_Daughter, Atkinson_Hyperlegible, Inter } from 'next/font/goo
 
 import './css/style.css'
 
+const seoKeywords = [
+    "accessible format",
+    "accurate arrival times",
+    "advanced routing",
+    "algorithm development",
+    "algorithmic solutions",
+    "cutting-edge routing",
+    "data accuracy",
+    "data analytics",
+    "data processing",
+    "easy-to-use",
+    "efficient routes",
+    "ETA (Estimated Time of Arrival)",
+    "ETA algorithms",
+    "innovation in routing",
+    "innovative projects",
+    "intuitive",
+    "map",
+    "mapping",
+    "navigation",
+    "optimized routes",
+    "precise ETA",
+    "public transit technology",
+    "public transit map",
+    "public transportation",
+    "real-time analytics",
+    "real-time data",
+    "route",
+    "route optimization",
+    "routing solutions",
+    "routing technology",
+    "simple navigation",
+    "student team",
+    "student-driven development",
+    "student-led innovation",
+    "technology development",
+    "time estimation",
+    "tools",
+    "user-centric algorithms",
+    "user-friendly",
+  ];
+  
+
 const siteMetadata = {
     title: 'Catenary Maps',
     description:
@@ -16,6 +59,7 @@ const siteMetadata = {
 export const metadata: Metadata = {
     title: siteMetadata.title,
     description: siteMetadata.description,
+    keywords: seoKeywords,
     openGraph: {
         title: siteMetadata.title,
         description: siteMetadata.description,
