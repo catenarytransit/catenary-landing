@@ -1,7 +1,9 @@
 import Video from '@/components/video'
 import VideoThumb from '@/public/images/screenshot1.png'
+import { useTranslations } from 'next-intl'
 
 export default function Hero() {
+    const t = useTranslations('Hero')
     return (
         <section>
             <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
@@ -47,9 +49,9 @@ export default function Hero() {
                     {/* Section header */}
                     <div className="max-w-3xl mx-auto text-center tpb-12 pb-16">
                         <h1 className="h1 mb-4" data-aos="fade-up">
-                            Powerful transit data and algorithms—
+                            {t('header')}
                             <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-700 to-blue-500">
-                                all in realtime
+                                {t('header-gradient')}
                             </span>
                         </h1>
                         <p

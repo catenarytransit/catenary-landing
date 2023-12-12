@@ -21,9 +21,7 @@ export default function Page() {
                                             height="1080"
                                             className="p-4"
                                         />
-                                        <span className="h4 mb-4">
-                                            Deepnote Link
-                                        </span>
+                                        <span className="h4 mb-4">Deepnote Link</span>
                                     </Link>
                                 </div>
                                 <Link href="https://docs.google.com/presentation/d/1h2Sqemv-VcV_ThRFmNPMshUvOP4BPp0AsVLyV83qVFA/edit">
@@ -35,9 +33,7 @@ export default function Page() {
                                             height="1080"
                                             className="p-4"
                                         />
-                                        <span className="h4 mb-4">
-                                            Slides Link
-                                        </span>
+                                        <span className="h4 mb-4">Slides Link</span>
                                     </div>
                                 </Link>
                             </div>

@@ -13,18 +13,16 @@ export const footerContent = {
             title: 'Links',
             links: [
                 { href: 'https://maps.catenarymaps.org', text: 'Launch Catenary Maps' },
-           //     { href: 'https://timetable.catenarymaps.org', text: 'Catenary Maps Timetables' },
+                //     { href: 'https://timetable.catenarymaps.org', text: 'Catenary Maps Timetables' },
                 { href: '/status', text: 'System Status' },
                 { href: 'https://discord.gg/bBeDhrzSgz', text: 'Join Discord' },
                 { href: '/privacy', text: 'Privacy Policy' },
             ],
         },
         {
-            title: "Talks & Lectures",
-            links: [
-                {href: '/gtfstalk', text: "GTFS Talk"}
-            ]
-        }
+            title: 'Talks & Lectures',
+            links: [{ href: '/gtfstalk', text: 'GTFS Talk' }],
+        },
     ],
     socialLinks: [
         { href: 'https://discord.gg/bBeDhrzSgz', icon: <FaDiscord />, alt: 'Discord' },

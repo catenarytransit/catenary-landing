@@ -51,7 +51,17 @@ export default function MaintainersList() {
                                         <Badge
                                             key={idx}
                                             variant="outline"
-                                            className={`!font-normal m-[1px] ${role == 'Catenary Board' ? 'text-yellow-500' : ''} ${role == 'Director' ? 'text-blue-400 dark:text-blue-300' : ''} ${role == 'Executive Director' ? 'text-purple-500 dark:text-purple-300' : ''}`}
+                                            className={`!font-normal m-[1px] ${
+                                                role == 'Catenary Board' ? 'text-yellow-500' : ''
+                                            } ${
+                                                role == 'Director'
+                                                    ? 'text-blue-400 dark:text-blue-300'
+                                                    : ''
+                                            } ${
+                                                role == 'Executive Director'
+                                                    ? 'text-purple-500 dark:text-purple-300'
+                                                    : ''
+                                            }`}
                                         >
                                             {role}
                                         </Badge>

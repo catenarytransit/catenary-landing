@@ -6,9 +6,7 @@ import Tabs from '@/components/tabs'
 export default function GtfsTalk() {
     return (
         <div className="flex flex-col divide-y divide-solid">
-            <p>
-                Hi!
-            </p>
+            <p>Hi!</p>
         </div>
     )
 }

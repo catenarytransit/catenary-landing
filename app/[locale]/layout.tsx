@@ -1,52 +1,53 @@
 import { ThemeProvider } from '@/components/theme-provider'
 import Header from '@/components/ui/header'
+import getLocales from '@/lib/getLocales'
 import type { Metadata } from 'next'
 import { Architects_Daughter, Atkinson_Hyperlegible, Inter } from 'next/font/google'
+import { notFound } from 'next/navigation'
 
 import './css/style.css'
 
 const seoKeywords = [
-    "accessible format",
-    "accurate arrival times",
-    "advanced routing",
-    "algorithm development",
-    "algorithmic solutions",
-    "cutting-edge routing",
-    "data accuracy",
-    "data analytics",
-    "data processing",
-    "easy-to-use",
-    "efficient routes",
-    "ETA (Estimated Time of Arrival)",
-    "ETA algorithms",
-    "innovation in routing",
-    "innovative projects",
-    "intuitive",
-    "map",
-    "mapping",
-    "navigation",
-    "optimized routes",
-    "precise ETA",
-    "public transit technology",
-    "public transit map",
-    "public transportation",
-    "real-time analytics",
-    "real-time data",
-    "route",
-    "route optimization",
-    "routing solutions",
-    "routing technology",
-    "simple navigation",
-    "student team",
-    "student-driven development",
-    "student-led innovation",
-    "technology development",
-    "time estimation",
-    "tools",
-    "user-centric algorithms",
-    "user-friendly",
-  ];
-  
+    'accessible format',
+    'accurate arrival times',
+    'advanced routing',
+    'algorithm development',
+    'algorithmic solutions',
+    'cutting-edge routing',
+    'data accuracy',
+    'data analytics',
+    'data processing',
+    'easy-to-use',
+    'efficient routes',
+    'ETA (Estimated Time of Arrival)',
+    'ETA algorithms',
+    'innovation in routing',
+    'innovative projects',
+    'intuitive',
+    'map',
+    'mapping',
+    'navigation',
+    'optimized routes',
+    'precise ETA',
+    'public transit technology',
+    'public transit map',
+    'public transportation',
+    'real-time analytics',
+    'real-time data',
+    'route',
+    'route optimization',
+    'routing solutions',
+    'routing technology',
+    'simple navigation',
+    'student team',
+    'student-driven development',
+    'student-led innovation',
+    'technology development',
+    'time estimation',
+    'tools',
+    'user-centric algorithms',
+    'user-friendly',
+]
 
 const siteMetadata = {
     title: 'Catenary Maps',
@@ -83,12 +84,20 @@ export const metadata: Metadata = {
     },
 }
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+const locales = getLocales()
+
+export default function RootLayout({
+    children,
+    params: { locale },
+}: {
+    children: React.ReactNode
+    params: { locale: string }
+}) {
+    if (!locales.includes(locale as any)) notFound()
+
     return (
-        <html lang="en">
-            <body
-                className={`antialiased bg-background text-foreground`}
-            >
+        <html lang={locale}>
+            <body className={`antialiased bg-background text-foreground`}>
                 <ThemeProvider
                     attribute="class"
                     defaultTheme="dark"

@@ -1,19 +1,17 @@
-
 name: Build JS
 
 on:
-  push:
-  pull_request:
+    push:
+    pull_request:
 
 jobs:
-  build:
+    build:
+        runs-on: ubuntu-latest
 
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v3
-    - uses: oven-sh/setup-bun@v1
-    - name: Install Node Dependency
-      run: bun install
-    - name: Build
-      run: bun run build
+        steps:
+            - uses: actions/checkout@v3
+            - uses: oven-sh/setup-bun@v1
+            - name: Install Node Dependency
+              run: bun install
+            - name: Build
+              run: bun run build
