@@ -29,7 +29,7 @@ export default function Header() {
                 <div className="flex items-center justify-between h-16 md:h-20">
                     {/* Site branding */}
                     <div className="shrink-0 mr-4">
-                        <a href="/">
+                        <a href="https://catenarymaps.org">
                             <span style={{ fontSize: '1.3em' }}>
                                 <img
                                     src={footerContent.logo.srcLightMode}

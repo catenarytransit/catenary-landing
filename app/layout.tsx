@@ -1,9 +1,7 @@
 import { ThemeProvider } from '@/components/theme-provider'
 import Header from '@/components/ui/header'
-import getLocales from '@/lib/getLocales'
 import type { Metadata } from 'next'
 import { Architects_Daughter, Atkinson_Hyperlegible, Inter } from 'next/font/google'
-import { notFound } from 'next/navigation'
 
 import './css/style.css'
 
@@ -84,19 +82,9 @@ export const metadata: Metadata = {
     },
 }
 
-const locales = getLocales()
-
-export default function RootLayout({
-    children,
-    params: { locale },
-}: {
-    children: React.ReactNode
-    params: { locale: string }
-}) {
-    if (!locales.includes(locale as any)) notFound()
-
+export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
-        <html lang={locale}>
+        <html lang="en">
             <body className={`antialiased bg-background text-foreground`}>
                 <ThemeProvider
                     attribute="class"
