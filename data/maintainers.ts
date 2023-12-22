@@ -91,7 +91,7 @@ export const maintainers: Person[] = [
         pronouns: 'he/him',
         school: 'University of California, Irvine',
         src: '/images/callmejai.png',
-        link: 'https://github.com/calmejai',
+        link: 'https://github.com/callmejai',
         titles: ['Algorithms', 'Embedded'],
     },
     {
