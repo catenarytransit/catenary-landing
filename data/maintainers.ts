@@ -47,14 +47,6 @@ export const maintainers: Person[] = [
         ],
     },
     {
-        name: 'Josh Wong',
-        pronouns: 'he/him',
-        school: 'Santa Monica College & Don Bosco Technical Institute, Rosemead',
-        src: 'https://github.com/lolpro11.png',
-        link: 'https://github.com/lolpro11',
-        titles: ['Director', 'Sysadmin', 'Systems Programmer', 'Algorithms'],
-    },
-    {
         name: 'Samuel Sharp',
         pronouns: 'he/him',
         school: 'San Diego High School',
