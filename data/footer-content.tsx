@@ -27,7 +27,7 @@ export const footerContent = {
     socialLinks: [
         { href: 'https://discord.gg/bBeDhrzSgz', icon: <FaDiscord />, alt: 'Discord' },
         { href: 'https://twitter.com/CatenaryMaps', icon: <FaTwitter />, alt: 'Twitter' },
-        { href: 'https://github.com/CatenaryMaps', icon: <FaGithub />, alt: 'Github' },
+        { href: 'https://github.com/CatenaryTransit', icon: <FaGithub />, alt: 'Github' },
         {
             href: 'https://www.instagram.com/catenarymaps/',
             icon: <FaInstagram />,
