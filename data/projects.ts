@@ -8,20 +8,11 @@ export interface Project {
 
 export const projects: Project[] = [
     {
-        name: 'Svelte Frontend',
+        name: 'Catenary Frontend',
         src: '/images/logo.png',
         alt: 'Svelte Logo',
         link: 'https://github.com/CatenaryTransit/catenary-frontend',
-        description:
-            'Default, original frontend for Catenary with realtime vehicle locations, labelled routes and stops.',
-    },
-    {
-        name: 'Flutter Frontend',
-        src: '/images/projects/flutterlogo.png',
-        alt: 'Flutter Logo',
-        link: 'https://github.com/CatenaryTransit/catenary-flutter',
-        description:
-            "Experimental rewrite of Catenary's frontend in Flutter, with support for native mobile and Web platforms.",
+        description: 'Default Web frontend for Catenary with realtime vehicle locations, labelled routes and stops.',
     },
     {
         name: 'Catenary Backend',
@@ -40,26 +31,26 @@ export const projects: Project[] = [
             'Redis-based cache microservice fetching GTFS-rt from thousands of agencies every second and syncing with our algorithms.',
     },
     {
-        name: 'ZotGTFS',
-        src: '/images/projects/zotgtfslogo.png',
-        alt: 'ZotGTFS Logo',
-        link: 'https://github.com/CatenaryTransit/zotgtfs',
-        description:
-            'Complete reverse engineering of the TransLoc API used by the UCI Anteater Express shuttle service, adapting it to GTFS.',
-    },
-    {
-        name: 'Skokie Swift',
-        src: '/images/projects/skokieswiftlogo.png',
-        alt: 'Skokie Swift Logo',
-        link: 'https://github.com/CatenaryTransit/skokieswift',
-        description:
-            'Experimental reverse engineering of the CTA Train Tracker API, adapting it to GTFS-rt for use in Catenary.',
-    },
-    {
         name: 'Announcement Project',
         src: '/images/projects/announcementslogo.png',
         alt: 'Announcement Logo',
         link: 'https://github.com/CatenaryTransit/announcements',
         description: "Publishing automated announcements for the world's transit systems.",
+    },
+    {
+        name: 'ZotGTFS',
+        src: '/images/logo.png',
+        alt: 'ZotGTFS Logo',
+        link: 'https://github.com/CatenaryTransit/zotgtfs',
+        description:
+            'Converts Transloc-based shuttle and transit bus services to the open GTFS-rt format.',
+    },
+    {
+        name: 'Amtrak GTFS-rt',
+        src: '/images/logo.png',
+        alt: 'Amtrak GTFS-rt Logo',
+        link: 'https://github.com/CatenaryTransit/amtrak-gtfs-rt',
+        description:
+            'Converts Amtrak\'s proprietary Track-a-Train API data to the open GTFS-rt format.',
     },
 ]

@@ -4,6 +4,7 @@ export interface Person {
     school: string
     src: string // Image source
     link: string // Github profile
+    title?: string
     titles: string[]
 }
 
@@ -14,9 +15,8 @@ export const maintainers: Person[] = [
         school: 'University of California, Irvine',
         src: 'https://github.com/kylerchin.png',
         link: 'https://kylerchin.com',
+        title: 'Executive Director',
         titles: [
-            'Executive Director',
-            'Catenary Board',
             'Systems Programmer',
             'Distributed Computing',
             'Algorithms',
@@ -30,7 +30,8 @@ export const maintainers: Person[] = [
         school: 'California State University, Los Angeles',
         src: 'https://github.com/pyover180.png',
         link: 'https://github.com/pyover180',
-        titles: ['Director', 'Catenary Board', 'Systems Architecture', 'Algorithms'],
+        title: 'Board, Director of Systems Architecture',
+        titles: ['Systems Architecture', 'Algorithms'],
     },
     {
         name: 'Andrew Shen',
@@ -38,10 +39,9 @@ export const maintainers: Person[] = [
         school: 'University of California, Irvine',
         src: 'https://github.com/AndrewHC36.png',
         link: 'https://github.com/AndrewHC36',
+        title: 'Board, Director of Machine Learning',
         titles: [
-            'Director',
-            'Catenary Board',
-            'Frontend/Flutter',
+            'Frontend',
             'Algorithms',
             'Machine Learning',
         ],
@@ -52,7 +52,8 @@ export const maintainers: Person[] = [
         school: 'San Diego High School',
         src: 'https://github.com/samuelbeepdev.png',
         link: 'https://samuelsharp.com',
-        titles: ['Frontend/Web', 'Frontend/Flutter', 'Design', 'UX/UI'],
+        title: 'Frontend Lead + Community Manager',
+        titles: ['Frontend', 'Design', 'UX/UI'],
     },
     {
         name: 'Jason T.',
@@ -60,7 +61,8 @@ export const maintainers: Person[] = [
         school: 'University of California, San Diego',
         src: 'http://github.com/jktrn.png',
         link: 'https://enscribe.dev',
-        titles: ['Frontend/Web', 'UX/UI', 'Accessibility Design'],
+        title: 'Web Landing Lead',
+        titles: ['Frontend', 'UX/UI', 'Accessibility Design'],
     },
     {
         name: 'Brandon Z.',
@@ -68,7 +70,8 @@ export const maintainers: Person[] = [
         school: 'University of Southern California',
         src: 'https://github.com/catenarymaps.png',
         link: '#',
-        titles: ['Frontend/Web', 'UX/UI', 'Design'],
+        title: 'UI/UX Lead',
+        titles: ['Frontend', 'UX/UI', 'Design'],
     },
     {
         name: 'Chelsea Wen',
@@ -92,6 +95,6 @@ export const maintainers: Person[] = [
         school: 'California State University, East Bay',
         src: 'https://github.com/BustosAndrew.png',
         link: 'https://github.com/BustosAndrew',
-        titles: ['Frontend/Flutter', 'User Design'],
+        titles: ['Frontend', 'User Design'],
     },
 ]
