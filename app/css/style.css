@@ -6,7 +6,7 @@
 @import 'additional-styles/range-slider.css';
 @import 'additional-styles/toggle-switch.css';
 @import 'additional-styles/theme.css';
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://use.typekit.net/yab4iwr.css');
 
 @import 'tailwindcss/utilities';
 
@@ -18,7 +18,7 @@
 }
 
 * {
-    font-family: 'Open Sans', sans-serif !important;
+    font-family: 'din-2014', sans-serif !important;
 }
 
 /* See Alpine.js: https://github.com/alpinejs/alpine#x-cloak */
@@ -63,16 +63,16 @@
     }
 
     .dark {
-        --background: 0 0% 3.9%;
+        --background: 212, 73%, 14%;
         --foreground: 0 0% 98%;
 
-        --card: 0 0% 3.9%;
+        --card: 194, 53%, 52%;
         --card-foreground: 0 0% 98%;
 
         --popover: 0 0% 3.9%;
         --popover-foreground: 0 0% 98%;
 
-        --primary: 192 91% 36%;
+        --primary: 194, 53%, 52%;
         --primary-foreground: 0 0% 9%;
 
         --secondary: 0 0% 8%;
@@ -84,7 +84,7 @@
         --muted: 0 0% 14.9%;
         --muted-foreground: 0 0% 63.9%;
 
-        --accent: 0 0% 14.9%;
+        --accent: 194, 53%, 52%;
         --accent-foreground: 0 0% 98%;
 
         --destructive: 0 62.8% 30.6%;
