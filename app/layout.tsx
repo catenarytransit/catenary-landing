@@ -91,7 +91,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     enableSystem
                     disableTransitionOnChange
                 >
-                    <div className="flex flex-col min-h-screen overflow-hidden">
+                    <div className="flex flex-col min-h-screen">
                         <Header />
                         {children}
                     </div>
